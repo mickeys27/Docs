@@ -1,0 +1,43 @@
+:imagesdir: ../images/
+
+Pour configurer votre équipement il faut se rendre dans l'onglet du plugin Suivi Conso. +
+Plugins / Energie / Suivi Conso +
+
+Cliquer sur "Ajouter un équipement" +
+image:ecq.png[]
+
+
+*Libelle* : Nom de votre equipement +
+
+*Type* : Electricité ou Eau +
+
+*Objet Parent* : renseigner la categorie de votre quipement. +
+
+*Equipement parent* : Permet de rattacher un équipement à un parent pour recuprer les ses informations. +
+*Information récuperées du parent : *+
+- Abonnement +
+- Compteur +
+- Type +
+- Commande PTEC
+- Commande IMAX
+
+*Abonnement :* Bleu(Heure pleine heure creuse),Base (heure pleine) +
+
+*Votre équipement ne remonte pas d'index, seulement une consommation en kWh  :* +
+Mettre à oui pour les equipements avec seulement les commandes PAPP ( puissance apparent ) et Consommation .
+
+Si votre équipement est un total ( teleinformation ) mettre Total à Oui. +
+Le bouton Defaut permet d afficher un equipement au demarrage de votre panel. +
+
+
+Une fois les informations renseignées, il faut ajouter les commandes necessaires au bon fonctionnement du plugin . +
+Pour cela cliquer sur "Ajouter les commandes" +
+
+image:add_cmd.jpg[]
+
+Pour selectionner les commandes il faut cliquer sur la pastille verte ou orange pour récupérer les informations . +
+image:configuration.jpg[]
+
+
+Puis il vous faut récupérer les commandes configurées dans jeedom. +
+image:commandes.jpg[]

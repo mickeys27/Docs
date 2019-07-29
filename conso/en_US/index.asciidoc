@@ -1,0 +1,90 @@
+:imagesdir: ../images/
+
+:icons:
+== Monitoring Consommation
+
+=== Presentation
+
+Le plugin Conso permet de suivre La consommation electrique :
+- D un compteur EDF via la Teleinformation +
+- D une module type Fibaro. +
+
+De suivre la consommation d eau
+
+This requires to select the commands associated for each parameter. +
+It is compatible with Basic and Peak hours / Off-peak hours subscriptions. +
+
+You need to retrieve the commands in Jeedom to run the plugin :
+
+The mandatory parameters are : +
+
+*Teleinfo Abonnement de base :* +
+
+	-The index ( BASE ) +
+	-Instantaneous apparent power ( PAPP ) +
+
+*Teleinfo Abonnement HP/HC* +
+
+	-Index off-peak hours +
+	-Index peak hours +
+	-Rate band ( PTEC ) +
+	-The instantaneous power ( PAPP ) +
+
+*Modules type Fibaro* +
+
+	-Puissance instantanée +
+	-Consommation  +
+
+*Optional parameters* +
+
+	-Instantaneous intensity +
+	-Maximal intensity +
+
+
+
+It lets you view : +
+
+ - The instantaneous power +
+ - The temperature of the day
+ - The consumption of the day +
+ - The consumption of the day before +
+ - The maximum and minimum power of the day +
+
+It automatically generates graphics : +
+
+	- Consumption of the last 7 days (in Kwh ) +
+	- Consumption of the month per week (in Kwh ) +
+	- Consumption per month for 1 year (in Kwh ) +
+
+	- Consumption of the last 7 days (in Euro ) +
+	- Consumption of the month per week (in Euro ) +
+	- Consumption per month for 1 year (in Euro ) +
+
+	-Consumption per month VAT Incl +
+
+The plugin also allows you : +
+
+	- To generate graphics over a given period +
+	- To generate invoices over a given period ( under development ) +
+	- To back up all your data or to import your data from a remote server or by file
+
+
+image:presentation.jpg[]
+
+'''
+
+=== Equipment configuration
+include::partie_1.asciidoc[]
+
+'''
+=== The panel
+include::partie_2.asciidoc[]
+
+'''
+=== Verification operation
+include::partie_3.asciidoc[]
+
+'''
+
+=== Changelog
+include::changelog.asciidoc[]

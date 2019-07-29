@@ -1,0 +1,67 @@
+.*V2.0 *
+- !!!!!!!!!!! Gestion du multicommande !!!!!!!!!!
+- Gestion du compteur Eau
+- Ajout du type Abonnement  ( electricité ou eau )
+- Ajout du type de periode  ( electricité ou eau )
+- Ajout du type de prix  ( electricité ou eau )
+- Ajout du type de taxe  ( electricité ou eau )
+- Changement Id equipement (permet de modifier l id equipement vers un autre ID equipement ) dans outils
+- Supprimer  les données d' un équipement ( dans outils)
+- Correction d affichage des tableaux
+- Corrections des retours de bugs utilisateurs
+- Onglet : Outils, Configuration et Save visible uniquement en mode Expert
+- Graphique du jour : possibilité de selectionner la periode
+- Refonte des bloques bootstrap du panel
+- Possibilité d ajouter une bouton retour dans le menu ( dans outils )
+- Modification de l interface configuration
+- Mise a jour Doc
+
+.*V1.3 *
+- Ajout de la température
+- Infobull dans les 2 tableaux sur l'accueil
+- Correction bug a l installation ( id_tva )
+- Modification du menu
+- Sauvegarde des données
+- Import des données
+- Import des donnes depuis un serveur distant
+- Modification et  suppression des données depuis la page info
+- Modification de la gestion de la table jour
+- Plus besoin de garder l historique de la table teleinfo , il faut seulement les 2 derniers jours pour le graphique du jour de l accueil.
+- La table jour ne se vide plus, les données sont remplacées lors de la synchro.
+- Suppression des champs non utilisés dans la table téléinfo.
+- Correction affichage tableau variation
+- Correction bug lors de l edition d une taxe , periode et TVA
+
+
+.*V1.2 *
+- Popup periode enlever la scrollbar +
+- Masquer bouton "ajouter" equipement si > 0 +
+- J'arrive pas a supprimer des lignes dans l'onglet prix. Ils disparaissent bien mais quand tu reviens dessus plus tard ils sont de nouveau la. +
+- Harmonisation Ajout et suppression d'une donnée. +
+- CREATION DE LA DOC +
+- Position valeur MIn et Min +
+- Couleur Valeur Max et Min +
+
+.*V1 *
+- Supprimer ligne de code mysql dans la conf +
+- Ajouter le prix de l’abonnement. +
+- Ajouter la puissance souscrite +
+- Expliquer dans l equipement les entrees +
+- Faute dans gestion de la TVA +
+- Forcer visible a non puis masquer le champ dans equipement +
+- Quand on rajoute une période il serait bien que dans les options d'affichage lorsque on est sur non il soit en rouge c'est un détails mais plus clair. +
+- Corrections des onglets tva ,taxe,prix update ,delete , add +
+- Affichage consommation de la veille correction de la semaine lorsque la date du jour = dimanche parametrage de l abonnement pour la gauge +
+- Correction bug tableau vide correction de valeur a 0 sur les graphs HP HC OLD +
+- Table sauvegarde lors de la purge +
+- Ajout logs modification des couleurs corrections notices +
+- Ajout d un onglet abonnement +
+- Ajout d un onglet Info Il permet de visualiser les tables de gestion teleinfo et jour +
+- Refonte du popup détail refonte du tooltips quand la souris passe sur un graphique du dashboard. +
+- Ajout du minimum sur la trame du jour +
+- Correction et modification affichage des libellés sur les graphs du dashboard. +
+- Ajout d un bouton synchroniser aujourd'hui dans outil permet de synchroniser la ligne du jour dans la table jour en cas d erreur +
+- Affichage de la legende + gauge sur la trame du jour - Couleur onglet - prise en charge abonnement de base +
+- Modification de la gestion des taxes modifications des libelles +
+- Si pas année-1 alors on masque la legende +
+- Correction sql +

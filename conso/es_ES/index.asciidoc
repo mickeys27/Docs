@@ -1,0 +1,90 @@
+:imagesdir: ../images/
+
+:icons:
+== Suivi Conso
+
+=== Presentation
+
+Le plugin Conso permet de suivre La consommation electrique :
+- D un compteur EDF via la Teleinformation +
+- D une module type Fibaro. +
+
+De suivre la consommation d eau
+
+Pour cela il faut selectionner les commandes associées pour chaques parametres. +
+Il est compatible avec les abonnements de base et les Heures pleines / Heures Creuses. +
+
+Il vous faut récupérer les commandes dans jeedom pour faire fonctionner le plugin :
+
+Les parametres obligatoires sont : +
+
+*Teleinfo Abonnement de base :* +
+
+	-L'index ( BASE ) +
+	-La puissance apparente instantanée ( PAPP ) +
+
+*Teleinfo Abonnement HP/HC* +
+
+	-Index heures creuses +
+	-Index heures pleine +
+	-La tranche tarifaire ( PTEC ) +
+	-La puissance instantannée ( PAPP ) +
+
+*Modules type Fibaro* +
+
+	-Puissance instantanée +
+	-Consommation  +
+
+*Parametres optionnels* +
+
+	-Intensité instantanée +
+	-Intensité maximal +
+
+
+
+Il permet de visualiser : +
+
+ - La puissance instantanée +
+ - La température du jour
+ - La consommation du jour +
+ - La consommation de la veille +
+ - La puissance maximale et minimale du jour +
+
+Il génère automatiquement  les graphiques : +
+
+	- Consommation des 7 derniers jours (en Kwh ) +
+	- Consommation du mois par semaine (en Kwh ) +
+	- Consommation par mois sur 1 an (en Kwh ) +
+
+	- Consommation des 7 derniers jours (en euro ) +
+	- Consommation du mois par semaine (en euro ) +
+	- Consommation par mois sur 1 an (en euro ) +
+
+	-Consommation par mois TTC
+
+Le plugin vous permet aussi  : +
+
+	- De Générer des graphiques sur une période donnée +
+	- De générer les factures sur une période donnée ( en cours de developpement ) +
+	- De sauvegarder toutes vos données ou d'importer vos données depuis un serveur distant ou par fichier
+
+
+image:presentation.jpg[]
+
+"
+
+=== Configuration de l'équipement
+include::partie_1.asciidoc[]
+
+"
+=== Le panel
+include::partie_2.asciidoc[]
+
+"
+=== Verification du fonctionnement
+include::partie_3.asciidoc[]
+
+"
+
+=== Changelog
+include::changelog.asciidoc[]

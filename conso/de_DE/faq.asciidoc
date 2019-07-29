@@ -1,0 +1,13 @@
+=== Utilisation sans téléinfo.
+L’objectif de ce tuto est d’utiliser le Plugin sans les informations remontées par les telinfo. +
+Si il vous manque : PTEC , index ...
+
+link:https://www.jeedom.fr/forum/viewtopic.php?f=28&t=8500&p=209667#p209667[Voir le Tuto]
+
+==== Plugins necessaires
+- Plugin Suivi Conso
+- Virtuel
+- Agenda (Si HC / HP )
+
+
+Merci à fcna et mutmut
