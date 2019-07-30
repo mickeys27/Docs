@@ -24,10 +24,13 @@ Ce cron tourne tous les jours a 00:30
 
 ## UpdateTable
 Le cron UpdateTable permet de mettre a jour la ligne du jour de la table conso_jour.
-Ce cron tourne toutes les 3 minutes. 
+Ce cron tourne toutes les 3 minutes.
+
 ![Cron](../images/cron.jpg)
 
 
+
 Les tables Conso_jour et conso_teleinfo sont disponibles dans le panel , onglet "Info" 
+
 ![onglet_info](../images/onglet_info.jpg)
 
