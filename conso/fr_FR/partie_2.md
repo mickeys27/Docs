@@ -23,7 +23,7 @@ Année : vous pouvez paramétrer la date de debut de votre année dans l'onglet 
 Ce Tableau vous affiche la consommation par Jour / Semaine / Mois et Année. 
 
 Vous pouvez afficher le détail en vous positionnant sur le libellé 
-![watt](../images/watt.png)
+![watt](../images/watt.jpg)
 
 ### Prévisions
 Les prévisions seront affichées uniquement si vous avez un historique 1an minimum pour pouvoir comprarer sur l'année précédente. 
@@ -35,14 +35,16 @@ Si nous sommes en septembre alors la comparaisons se fera :
 
 
 ### Puissance 
-Puissance instantanée sous forme de gauge 
+Puissance instantanée sous forme de gauge
+
 ![gauge](../images/gauge.jpg)
 
 
 ### Variation 
 Ce Tableau vous informe des variations de puissance 
 Il vous permet de voir la différence de puissance entre chaque relevés 
-Heure / puissance / Différence par rapport au dernier relevé / Type Abonnement 
+Heure / puissance / Différence par rapport au dernier relevé / Type Abonnement
+ 
 **Il est possible que ce tableau ne s'affiche pas lors du lancement du plugin , il faut alors attendre quelque heures.** 
 ![variation](../images/variation.jpg)
 
@@ -52,6 +54,7 @@ Heure / puissance / Différence par rapport au dernier relevé / Type Abonnement
  - La consommation  
  - Pourcentage en HP et HC 
  - Consommation du jour 
+ 
 ![percent](../images/percent.png)
 
 
@@ -77,8 +80,11 @@ En passant la souris sur le graphique vous pouvez afficher le detail.
 
 
 Le dernier tableau est un graphique TTC 
+
 **Taxe Fixe :** Abonnement + Taxes fixes paramétrées dans l'onglet Taxes + TVA 
-**Taxe Variable :** Taxes variables paramétrées dans l onglet Taxes + TVA 
+
+**Taxe Variable :** Taxes variables paramétrées dans l onglet Taxes + TVA
+
 ![graph_taxe](../images/graph_taxe.jpg)
 
 
