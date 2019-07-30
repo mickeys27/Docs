@@ -1,4 +1,3 @@
-:imagesdir: ../images/
 
 Pour verifier le bon fontionnement du plugin assurez vous que toutes vos commandes inserées dans la configuration retourne bien les bonnes valeurs. 
 ( Si vous récuperez les valeurs du plugin téléinfo , cliquer sur le bouton "tester" de ce plugin afin de vous assurer que toutes les commandes vous retournent la bonne information ) 
@@ -16,7 +15,8 @@ La table conso_jour contient les données calculées.
 Le démon permet de recuperer les informations de chaque commandes et de les stocker dans la table conso_teleinfo. 
 Pour modifier la frequence de récuperation des données, vous pouvez modifier la valeur de la colonne "Démon"  ( voir dans le moteur des taches de jeedom) 
 Ce démon tourne toutes les minute par défaut. 
-image:deamon.jpg[]
+
+![deamon](./images/deamon.jpg)
 
 ## UpdateOldDay
 Le cron UpdateOldDay permet de mettre a jour toutes les informations de la table jour.
@@ -25,13 +25,9 @@ Ce cron tourne tous les jours a 00:30
 ## UpdateTable
 Le cron UpdateTable permet de mettre a jour la ligne du jour de la table conso_jour.
 Ce cron tourne toutes les 3 minutes. 
-
-
-![Image of Yaktocat]https://octodex.github.com/images/yaktocat.png
-
-
-image:cron.jpg[]
+![Cron](./images/cron.jpg)
 
 
 Les tables Conso_jour et conso_teleinfo sont disponibles dans le panel , onglet "Info" 
-image:onglet_info.jpg[]
+![onglet_info](./images/onglet_info.jpg)
+
