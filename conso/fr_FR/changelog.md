@@ -1,3 +1,19 @@
+## V3.4
+- Ajout d'information dans la version mobile
+- Compatibilité Jeedom V4
+- BugFix de la version Mobile
+- BugFix des thèmes en V4
+- BugFix abonnement sur facture pour période courte
+- BugFix tableau des variations
+
+## V3.3
+- Le dashboard pour l’eau a été peaufiné
+- le panel prix correspond au centimes près au graphique TTC sur 12 mois et aux statistiques
+- Les factures Electricité et Eau fonctionne correctement.
+- Gestion des dates d'application des taxes et des prix hors périodes de calcul. Entrez celles de votre facture réelle.
+- Il est possible de saisir plusieurs prix différents pour une même période (nécessaire notamment pour l’eau)
+
+
 ## V3.2
 - Ajout page de correction des données
 - Mise en place des commandes.
