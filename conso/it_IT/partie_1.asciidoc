@@ -1,20 +1,20 @@
 :imagesdir: ../images/
 
-Pour configurer votre Ã©quipement il faut se rendre dans l'onglet du plugin Suivi Conso. +
+Pour configurer votre équipement il faut se rendre dans l'onglet du plugin Suivi Conso. +
 Plugins / Energie / Suivi Conso +
 
-Cliquer sur "Ajouter un Ã©quipement" +
+Cliquer sur "Ajouter un équipement" +
 image:ecq.png[]
 
 
 *Libelle* : Nom de votre equipement +
 
-*Type* : ElectricitÃ© ou Eau +
+*Type* : Electricité ou Eau +
 
 *Objet Parent* : renseigner la categorie de votre quipement. +
 
-*Equipement parent* : Permet de rattacher un Ã©quipement Ã  un parent pour recuprer les ses informations. +
-*Information rÃ©cuperÃ©es du parent : *+
+*Equipement parent* : Permet de rattacher un équipement à  un parent afin de recuprer  les informations du père. +
+*Information récuperées du parent : *+
 - Abonnement +
 - Compteur +
 - Type +
@@ -23,21 +23,27 @@ image:ecq.png[]
 
 *Abonnement :* Bleu(Heure pleine heure creuse),Base (heure pleine) +
 
-*Votre Ã©quipement ne remonte pas d'index, seulement une consommation en kWh  :* +
-Mettre Ã  oui pour les equipements avec seulement les commandes PAPP ( puissance apparent ) et Consommation .
+*Je n'ai que la consommation de mon equipement (Exemple FGD-212)  :* +
+- Commande disponible : +
+	 - Consommation Kwh ou Wh +
+	 - Puissance PAPP
 
-Si votre Ã©quipement est un total ( teleinformation ) mettre Total Ã  Oui. +
+*je n'ai que la puissance de mon équipement (Exemple FGD-211) :* +
+- Commande disponible : +
+	 - Etat : Votre équipement est allumé ou éteint (Type : numerique 0 ou 1 ) +
+	 - Consommation électrique déclarée  (Wh) La consommation de vos ampoules ou équipements une fois mesurée
+
+Si votre équipement est un total ( teleinformation ) mettre Total à  Oui. +
 Le bouton Defaut permet d afficher un equipement au demarrage de votre panel. +
 
-
-Une fois les informations renseignÃ©es, il faut ajouter les commandes necessaires au bon fonctionnement du plugin . +
+Une fois les informations renseignées, il faut ajouter les commandes necessaires au bon fonctionnement du plugin . +
 Pour cela cliquer sur "Ajouter les commandes" +
 
 image:add_cmd.jpg[]
 
-Pour selectionner les commandes il faut cliquer sur la pastille verte ou orange pour rÃ©cupÃ©rer les informations . +
+Pour selectionner les commandes il faut cliquer sur la pastille verte ou orange pour récupérer les informations . +
 image:configuration.jpg[]
 
 
-Puis il vous faut rÃ©cupÃ©rer les commandes configurÃ©es dans jeedom. +
+Puis il vous faut récupérer les commandes configurées dans jeedom. +
 image:commandes.jpg[]

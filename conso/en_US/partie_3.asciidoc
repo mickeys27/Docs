@@ -1,22 +1,22 @@
 :imagesdir: ../images/
 
-Pour verifier le bon fontionnement du plugin assurez vous que toutes vos commandes inserÃ©es dans la configuration retourne bien les bonnes valeurs. +
-( Si vous rÃ©cuperez les valeurs du plugin tÃ©lÃ©info , cliquer sur le bouton "tester" de ce plugin afin de vous assurer que toutes les commandes vous retournent la bonne information ) +
+Pour verifier le bon fontionnement du plugin assurez vous que toutes vos commandes inserées dans la configuration retourne bien les bonnes valeurs. +
+( Si vous récuperez les valeurs du plugin téléinfo , cliquer sur le bouton "tester" de ce plugin afin de vous assurer que toutes les commandes vous retournent la bonne information ) +
 
-==== Les crons et DÃ©mon
+==== Les crons et Démon
 
 Le plugin utilise 2 cron et 1 Deamon +
-Il existe 2 tables de donnÃ©es +
+Il existe 2 tables de données +
 
-La table conso_teleinfo contient les donnÃ©es des commandes.
-La table conso_jour contient les donnÃ©es calculÃ©es.
+La table conso_teleinfo contient les données des commandes.
+La table conso_jour contient les données calculées.
 
 
 ===== StartDeamon
-Le dÃ©mon permet de rÃ©cuperer les informations de chaque commandes et de les stocker dans la table conso_teleinfo. +
-Pour modifier la frÃ©quence de rÃ©cuperation des donnÃ©es, vous pouvez modifier la valeur de la colonne "DÃ©mon"  ( voir dans le moteur des taches de jeedom) +
-(Je vous invite Ã  arrÃ©ter le dÃ©mon puis de le relancer a chaque modification)
-Ce dÃ©mon tourne toutes les minute par dÃ©faut. +
+Le démon permet de récuperer les informations de chaque commandes et de les stocker dans la table conso_teleinfo. +
+Pour modifier la fréquence de récuperation des données, vous pouvez modifier la valeur de la colonne "Démon"  ( voir dans le moteur des taches de jeedom) +
+(Je vous invite Ã  arréter le démon puis de le relancer a chaque modification)
+Ce démon tourne toutes les minute par défaut. +
 image:deamon.jpg[]
 
 ===== UpdateOldDay
