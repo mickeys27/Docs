@@ -1,3 +1,22 @@
+## V3.6
+- Correction de la perte de donnée à la désactivation du plugin
+- Correction d'un bug sur les version des thèmes
+- Ajout des abonnnement uniquement sur l'équipement Total
+- Correction du thème V3 Default
+- Suppression du message "Pour visualiser le graphique merci de renseigner la Puissance instantanée" pour les équipements autres que électricité et production
+- Ajout gestion de catégorie, gaz, fioul, production d’électricité (taxe non obligatoire)
+- Correction de l'export global en csv
+- En cas de redémarrage du plugin faire en sorte de ne pas perdre les paramétrages prériodes, prix, abonnement, etc ...
+- Ajout d'une option pour ne pas prendre en compte l'abonnement pour les sous-équipements
+- Arborescence des équipements dans le menu
+- Trie par catégorie dans le paramétrage des équipements
+- Option pour jauge adaptable en fonction de la puissance et avec une valeur mini à 1kW, ou bien saisie libre de la puissance
+- Suppression visibilité case à cocher defaut et total pour les sous-équipements. Et forçage à décocher par défaut pour les sous-équipements.
+- Cacher la case PTEC dans la config en tarif base
+- Amélioration compatibilité php 7.3
+- Ajout de la synthèse des statistiques pour la catégorie eau et les nouvelles catégories
+- Ajout de la possibilité de sélectionner la devise.
+
 ## V3.5
 - Gestion thème en fonction de la version Jeedom (V3 ou V4)
 - Ajout synthèse statistiques pour l'eau
