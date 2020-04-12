@@ -1,9 +1,11 @@
+## V3.9
+- Bugfix anomalies de la version 3.8
+
 ## V3.8
 - Suppression de l'unité dans les graphiques pour avoir toutes les données affichées
 - Correction de la commande abonnement en cours
 - Correction pour le cumul des catégories dans le camembert si plusieurs équipements avec une même catégorie
 - Autorisation de prendre la somme des sous-équipements comme somme totale de la consommation si celle-ci est supérieure au père pour le camembert
-
 
 ## V3.7
 - Correction des pourcentages sur le panel Prévisions
