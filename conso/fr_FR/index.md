@@ -9,14 +9,14 @@ Le plugin Conso permet de suivre sa consommation :
  - GAZ
  - FIOUL
 
-Pour cela il faut sélectionner les commandes associées dans chaques paramètres. <br>
+Pour cela, il faut sélectionner les commandes associées dans chaque paramètre. <br>
 Il est compatible avec les abonnements de base et les Heures pleines / Heures Creuses. <br><br>
 
 Il vous faut récupérer les commandes dans Jeedom pour faire fonctionner le plugin :<br>
 
 ## Paramètres obligatoires : 
 
-### CONSOMATION ELECTRIQUE :
+### CONSOMMATION ELECTRIQUE :
 
 **Abonnement de base :** 
  - L'index ( BASE )
@@ -33,16 +33,16 @@ Il vous faut récupérer les commandes dans Jeedom pour faire fonctionner le plu
  - Puissance instantanée
  - Consommation
 
-**Autres Modules  sans la commande consommation disponible (Ex : FGD-211) :** <br>
+**Autres Modules sans la commande consommation disponible (Ex : FGD-211) :** <br>
 
  - Etat
  - Consommation électrique déclarée
 
-**Parametres optionnels :** 
+**Paramètres optionnels :** 
 
  - Intensité instantanée 
- - Intensité maximal 
- - Température Exterieure
+ - Intensité maximale 
+ - Température Extérieure
 
 **Il permet de visualiser :**
 
@@ -68,7 +68,7 @@ Il vous faut récupérer les commandes dans Jeedom pour faire fonctionner le plu
 
 **Le plugin vous permet aussi  :**
 
- - De Générer des graphiques sur une période donnée 
+ - De générer des graphiques sur une période donnée 
  - De générer les factures sur une période donnée (pour toutes les catégories) 
  - De sauvegarder toutes vos données ou d'importer vos données depuis un serveur distant ou par fichier
 
@@ -80,39 +80,39 @@ Il vous faut récupérer les commandes dans Jeedom pour faire fonctionner le plu
 
 **Abonnement HP/HC :** 
  - Index heures creuses
- - Index heures pleine
+ - Index heures pleines
  - La tranche tarifaire ( PTEC )
- - La puissance instantannée ( PAPP )
+ - La puissance instantanée ( PAPP )
 
 **Autres Modules avec la commande consommation disponible  (Ex : FGD-212) :** <br>
 
  - Puissance instantanée
  - Consommation
 
-**Autres Modules  sans la commande consommation disponible (Ex : FGD-211) :** <br>
+**Autres Modules sans la commande consommation disponible (Ex : FGD-211) :** <br>
 
  - Etat
  - Consommation électrique déclarée
 
-**Parametres optionnels :** 
+**Paramètres optionnels :** 
 
  - Intensité instantanée 
  - Intensité maximale 
- - Température Extérieure
+ - Température extérieure
 
 ### EAU :
 
- - Nombre d'impulsion totale
- - 1 Impulsion égal _**x**_ Litre
+ - Nombre d'impulsions total
+ - 1 impulsion égale _**x**_ Litre
 
 ### GAZ :
 
- - Nombre d'impulsion totale
- - 1 Impulsion égal _**x**_ dm3
+ - Nombre d'impulsions total
+ - 1 impulsione égal _**x**_ dm3
 
 ### FIOUL :
 
- - Nombre d'impulsion totale
+ - Nombre d'impulsions total
  - 1 Impulsion égal _**x**_ Litre
 
 
