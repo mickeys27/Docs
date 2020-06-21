@@ -1,3 +1,12 @@
+## V3.10
+- Correction valeur 1ère semaine sur graphe 4 semaines
+- Ajout du tableau prévisions pour les équipement type eau, fioul et gaz.
+- Ajout d'un filtre paramétrable à l'équipement (type FGD-212) pour ne pas enregistrer que les consommations qui dépassent le seuil renseigné
+- Correction des bornes de sélection pour le correcteur
+- Ajout informations données au survol dans les graphes.
+- Correction libellé pour la puissance en paramétrage type FGD211
+- Correction partielle problème mode VARIATION : Insère si Conso > Conso précedente
+
 ## V3.9
 - Bugfix anomalies de la version 3.8
 
