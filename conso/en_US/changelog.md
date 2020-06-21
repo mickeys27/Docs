@@ -1,5 +1,45 @@
+## V3.10
+- Correction valeur 1ère semaine sur graphe 4 semaines
+- Ajout du tableau prévisions pour les équipement type eau, fioul et gaz.
+- Ajout d'un filtre paramétrable à l'équipement (type FGD-212) pour ne pas enregistrer que les consommations qui dépassent le seuil renseigné
+- Correction des bornes de sélection pour le correcteur
+- Ajout informations données au survol dans les graphes.
+- Correction libellé pour la puissance en paramétrage type FGD211
+- Correction partielle problème mode VARIATION : Insère si Conso > Conso précedente
+
+## V3.9
+- Bugfix anomalies de la version 3.8
+
+## V3.8
+- Suppression de l'unité dans les graphiques pour avoir toutes les données affichées
+- Correction de la commande abonnement en cours
+- Correction pour le cumul des catégories dans le camembert si plusieurs équipements avec une même catégorie
+- Autorisation de prendre la somme des sous-équipements comme somme totale de la consommation si celle-ci est supérieure au père pour le camembert
+
+## V3.7
+- Correction des pourcentages sur le panel Prévisions
+- Camembert statistique: Correction des pourcentages HP/HC pour la catégorie "Autres".
+- Ajout d'une catégorie Véhicules pour la répartition des consommation (Il faut resauvegarder tous les équipements)
+- Amélioration du choix des noms des catégories dans le camembert.
+- Alerte et effacement du camembert quand la somme des sous-équipements est supérieure à l'équipement total.
+- Correction intitulé de la valeur à saisir dans la cas d'un équipement avec choix FGD-211
+- Ajout d'une api pour que les développeurs puissent intéragir avec les données du plugin 
+- Ajout d'un onglet avec tous les plugins partenaires
+- Correction calculs graphiques, statistiques, factures pour les paramétrages avec impulsion différent de 1
+- Différentier par une icone différente les parents des enfants
+- Ajout d'une commande avec le prix en cours
+- Correction du chemin pour l'import
+- Correction de la fonction de téléchargement des fichiers de paramétrages
+- tri des données dans le tableau des taxes
+- Correctif pour en tarif de base ne pas faire apparaître les lignes HC dans les factures
+- gestion du nombre de décimales sur la tableau des consommations
+- Correctif pour faire saisir les 2 prix HC et HP dans les catégories électricité et production, même si un équipement est en heure base.
+- Dans la saisie des prix, suppression de la confirmation du prix pour l'eau et le gaz
+- Ajout de boutons "tester" pour vérifier les commandes appliquées au paramétrage d'un équipement
+- Ajout des températures au relevé de gaz et du fioul
+
 ## V3.6
-- Correction de la perte de donné a la désactivation du plugin
+- Correction de la perte de donnée à la désactivation du plugin
 - Correction d'un bug sur les version des thèmes
 - Ajout des abonnnement uniquement sur l'équipement Total
 - Correction du thème V3 Default
@@ -15,6 +55,7 @@
 - Cacher la case PTEC dans la config en tarif base
 - Amélioration compatibilité php 7.3
 - Ajout de la synthèse des statistiques pour la catégorie eau et les nouvelles catégories
+- Ajout de la possibilité de sélectionner la devise.
 
 ## V3.5
 - Gestion thème en fonction de la version Jeedom (V3 ou V4)

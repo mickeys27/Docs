@@ -133,8 +133,14 @@ Cet onglet permet de configurer les prix pour le détail de votre facture, des t
 Les prix sont HT <br>
 Pour ajouter un prix il faut cliquer sur "Ajouter un Prix " <br>
 Pour éditer un prix il faut cliquer sur le petit crayon vert <br><br>
+En fonction des catégories, la saisie sera différente.<br>
+Pour l'électricité:<br><br>
+![prix_elect](../images/prix_elect.png)
 
-<span style="color:red">La valeur ne peut être supérieure Ã   9.9999</span>
+Pour le gaz avec le coefficient de convertion en kWh:<br><br>
+![prix_gaz](../images/prix_gaz.png)
+
+<span style="color:red">La valeur ne peut être supérieure à 9.9999</span>
 <span style="color:red">Si une valeur supérieure à 9.9999 est renseignée, alors il affichera 9.9999</span> 
 
 
