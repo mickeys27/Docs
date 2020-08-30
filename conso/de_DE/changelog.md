@@ -1,3 +1,8 @@
+## V3.11
+- Correction mode VARIATION : Insère si Conso > Conso précedente
+- Corrections diverses
+- Update Tag V4 Market et tri des fichiers
+
 ## V3.10
 - Correction valeur 1ère semaine sur graphe 4 semaines
 - Ajout du tableau prévisions pour les équipement type eau, fioul et gaz.
