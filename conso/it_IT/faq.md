@@ -1,10 +1,10 @@
 # FAQ du plugin Suivi Conso
 
 ## Il me manque des informations HP/HC/PTEC
-S'il vous manque des informations, que vous ne pouvez pas récupérer, le tuto vous permettra de les simuler.
+S il vous manque des informations, que vous ne pouvez pas récupérer, le tuto vous permettra de les simuler.
 
 L'objectif de ce tuto est d'utiliser le Plugin sans les informations remontées par la teleinfo.
-S'il vous manque : PTEC , index ... 
+S il vous manque : PTEC , index ... 
 
 [Voir le Tuto](./tutoriel_hp_hc.md)
 

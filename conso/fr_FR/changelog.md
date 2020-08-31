@@ -1,4 +1,6 @@
-<<<<<<< HEAD
+## V3.11
+- Correction mode VARIATION : Insère si Conso > Conso précedente
+
 ## V3.10
 - Correction valeur 1ère semaine sur graphe 4 semaines
 - Ajout du tableau prévisions pour les équipement type eau, fioul et gaz.
@@ -8,8 +10,6 @@
 - Correction libellé pour la puissance en paramétrage type FGD211
 - Correction partielle problème mode VARIATION : Insère si Conso > Conso précedente
 
-=======
->>>>>>> 0b59699faf52b807235c6755c7d87043e464fd52
 ## V3.9
 - Bugfix anomalies de la version 3.8
 
