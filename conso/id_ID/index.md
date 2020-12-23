@@ -16,7 +16,7 @@ Il vous faut récupérer les commandes dans Jeedom pour faire fonctionner le plu
 
 ## Paramètres obligatoires : 
 
-### CONSOMATION ELECTRIQUE :
+### CONSOMMATION ELECTRIQUE :
 
 **Abonnement de base :** 
  - L'index ( BASE )
@@ -71,6 +71,22 @@ Il vous faut récupérer les commandes dans Jeedom pour faire fonctionner le plu
  - De Générer des graphiques sur une période donnée 
  - De générer les factures sur une période donnée (pour toutes les catégories) 
  - De sauvegarder toutes vos données ou d'importer vos données depuis un serveur distant ou par fichier
+ - D'avoir des commandes disponibles pour chaque équipement afin de suivre l'historique des comsommations et des coûts indépendamment du plugin.
+	- Jour - 1
+	- Jour - 2
+	- Semaine - 1
+	- Semaine - 2
+	- Mois - 1
+	- Mois - 2
+	- Année - 1
+	- Année - 2
+	- Printemps
+	- Eté
+	- Automne
+	- Hivers
+	- 7 jours en arrière glissant
+	- 15 jours en arrière glissant
+	- 31 jours en arrière glissant
 
 ### PRODUCTION ELECTRIQUE
 
@@ -118,6 +134,11 @@ Il vous faut récupérer les commandes dans Jeedom pour faire fonctionner le plu
 
 # Présentation : 
 ![presentation](../images/presentation.jpg)
+
+## Configuration du plugin: 
+[Configuration](configuration.md)
+
+
 
 ## Configuration des équipements : 
 [Partie_1](partie_1.md)
