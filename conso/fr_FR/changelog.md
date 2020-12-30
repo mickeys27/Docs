@@ -1,5 +1,13 @@
+## V3.12
+- Correction absence PTEC en mode je n'ai que la puissance de mon équipement
+- Ajout commandes J-2, S-1, S-2, M-1, M-2, A-1, A-2, saisons, J-7  glissant, J-15 glissant, J-31 glissant
+- Correction icône poubelle en V4
+- Correction fonctionnement suppression sur table jour dans Configuration/Données
+
 ## V3.11
 - Correction mode VARIATION : Insère si Conso > Conso précedente
+- Corrections diverses
+- Update Tag V4 Market et tri des fichiers
 
 ## V3.10
 - Correction valeur 1ère semaine sur graphe 4 semaines
