@@ -1,3 +1,9 @@
+## V3.14
+- Correctif taille tooltip
+- Correctif conso 1ère semaine an-1 du graphe 4 semaines
+- Correctif valeur commande pour le gaz et tableau prévisions
+
+
 ## V3.13
 - Fix icones infos en V4
 - Correction date graphe semaine si semaine 53 dans l'année
