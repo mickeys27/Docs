@@ -1,8 +1,27 @@
+## V3.14
+- Correctif taille tooltip
+- Correctif conso 1ère semaine an-1 du graphe 4 semaines
+- Correctif valeur commande pour le gaz et tableau prévisions
+
+## V3.13
+- Fix icones infos en V4
+- Correction date graphe semaine si semaine 53 dans l'année
+- Fix error javascript
+- Correction erreur images structure table panel sauvegarde
+- Debug panel mobile
+- Optimisation nombre de commande équipement
+- Amélioration intitulé commandes Eau, gaz, fioul
+- Maj des unités par défaut des commandes
+- Correction relevés commandes saisons
+- Suppression contrôle Papp négatif
+- Ajout contrôle sous-équipement ne soit pas lui-même
+
 ## V3.12
 - Correction absence PTEC en mode je n'ai que la puissance de mon équipement
 - Ajout commandes J-2, S-1, S-2, M-1, M-2, A-1, A-2, saisons, J-7  glissant, J-15 glissant, J-31 glissant
 - Correction icône poubelle en V4
 - Correction fonctionnement suppression sur table jour dans Configuration/Données
+
 
 ## V3.11
 - Correction mode VARIATION : Insère si Conso > Conso précedente
@@ -34,7 +53,7 @@
 - Amélioration du choix des noms des catégories dans le camembert.
 - Alerte et effacement du camembert quand la somme des sous-équipements est supérieure à l'équipement total.
 - Correction intitulé de la valeur à saisir dans la cas d'un équipement avec choix FGD-211
-- Ajout d'une api pour que les développeurs puissent intéragir avec les données du plugin 
+- Ajout d'une api pour que les développeurs puissent intéragir avec les données du plugin
 - Ajout d'un onglet avec tous les plugins partenaires
 - Correction calculs graphiques, statistiques, factures pour les paramétrages avec impulsion différent de 1
 - Différentier par une icone différente les parents des enfants
@@ -276,4 +295,3 @@ A minuit :
 - Modification de la gestion des taxes modifications des libelles +
 - Si pas année-1 alors on masque la legende +
 - Correction sql +
-
