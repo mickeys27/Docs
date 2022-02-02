@@ -1,3 +1,7 @@
+## V3.15
+- Ajout sous-catégorie Matériel Informatique
+- Corrections pour version Jeedom v4.2
+
 ## V3.14
 - Correctif taille tooltip
 - Correctif conso 1ère semaine an-1 du graphe 4 semaines
