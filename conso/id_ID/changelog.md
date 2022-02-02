@@ -1,3 +1,7 @@
+## V3.15
+- Ajout sous-catégorie Matériel Informatique
+- Corrections pour version Jeedom v4.2
+
 ## V3.14
 - Correctif taille tooltip
 - Correctif conso 1ère semaine an-1 du graphe 4 semaines
@@ -21,6 +25,7 @@
 - Ajout commandes J-2, S-1, S-2, M-1, M-2, A-1, A-2, saisons, J-7  glissant, J-15 glissant, J-31 glissant
 - Correction icône poubelle en V4
 - Correction fonctionnement suppression sur table jour dans Configuration/Données
+
 
 ## V3.11
 - Correction mode VARIATION : Insère si Conso > Conso précedente
