@@ -1,3 +1,7 @@
+## V3.16
+- Amélioration lecture tooltip complexe
+- Problème icones sur page configuration
+
 ## V3.15
 - Ajout sous-catégorie Matériel Informatique
 - Corrections pour version Jeedom v4.2
