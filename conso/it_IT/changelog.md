@@ -1,3 +1,8 @@
+## V3.17
+- Ajout de la version du plugin dans le panel
+- Correction affichage résultat bouton tester dans config équipement
+- Correction facture
+
 ## V3.16
 - Amélioration lecture tooltip complexe
 - Problème icones sur page configuration
