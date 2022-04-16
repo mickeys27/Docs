@@ -1,3 +1,13 @@
+## V3.19
+- Correction arrondi partie fixe dans graphe TTC 12 mois
+
+## V3.18
+- Correction position résumé
+- Correction affichage bouton de sélection fenêtre saisie périodes, prix, abonnements, taxes, TVA
+- Ajout graphes pluri-annuels
+- Historisation et épuration automatique table conso_teleinfo
+- Ajout de la possibilité d'enregistrer les consommations à J-1 (exemple si utilisation plugin ENEDIS)
+
 ## V3.17
 - Ajout de la version du plugin dans le panel
 - Correction affichage résultat bouton tester dans config équipement
