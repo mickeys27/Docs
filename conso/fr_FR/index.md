@@ -136,8 +136,8 @@ Il vous faut récupérer les commandes dans Jeedom pour faire fonctionner le plu
 
 # Présentation :
 ![presentation](../images/presentation.jpg)
-(../images/presentation2.jpg)
-(../images/presentation3.jpg)
+![](../images/presentation2.jpg)
+![](../images/presentation3.jpg)
 
 ## Configuration du plugin:
 [Configuration](configuration.md)
