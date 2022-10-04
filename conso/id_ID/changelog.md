@@ -1,3 +1,7 @@
+## V3.21
+- Ajout catégories Piscine et Climatisation
+- Remplacement catégorie Autres automatique par la catégorie Indéfini
+
 ## V3.20
 - Corrections arrondi diverses
 - Mise à jour documentation
