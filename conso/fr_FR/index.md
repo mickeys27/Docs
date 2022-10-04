@@ -62,11 +62,13 @@ Il vous faut récupérer les commandes dans Jeedom pour faire fonctionner le plu
  - Consommation par mois sur 1 an (en kWh)
  - Consommation pluriannuelle (en kWh)
 
- - Consommation des 7 derniers jours (en euro)
- - Consommation du mois par semaine (en euro)
- - Consommation par mois sur 1 an (en euro)
+ - Consommation des 7 derniers jours (en euro HT)
+ - Consommation du mois par semaine (en euro HT)
+ - Consommation par mois sur 1 an (en euro HT)
  - Consommation par mois TTC
- - Consommation pluriannuelle (en euro)
+ - Consommation pluriannuelle (en euro HT)
+
+ - des camemberts affichant la répartitions de consommation des différents sous-consommateurs
 
 **Le plugin vous permet aussi  :**
 

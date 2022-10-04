@@ -1,3 +1,9 @@
+## V3.20
+- Corrections arrondi diverses
+- Mise à jour documentation
+- Ajout info type tarif hors taxe
+- Correction widget partie mobile
+
 ## V3.19
 - Correction arrondi partie fixe dans graphe TTC 12 mois
 

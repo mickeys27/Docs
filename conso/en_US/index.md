@@ -2,8 +2,8 @@
 
 ## Présentation
 
-Le plugin Conso permet de suivre sa consommation : 
- - CONSOMMATION ELECTRIQUE 
+Le plugin Conso permet de suivre sa consommation :
+ - CONSOMMATION ELECTRIQUE
  - PRODUCTION ELECTRIQUE
  - EAU
  - GAZ
@@ -14,15 +14,15 @@ Il est compatible avec les abonnements de base et les Heures pleines / Heures Cr
 
 Il vous faut récupérer les commandes dans Jeedom pour faire fonctionner le plugin :<br>
 
-## Paramètres obligatoires : 
+## Paramètres obligatoires :
 
 ### CONSOMMATION ELECTRIQUE :
 
-**Abonnement de base :** 
+**Abonnement de base :**
  - L'index ( BASE )
  - La puissance apparente instantanée ( PAPP )
 
-**Abonnement HP/HC :** 
+**Abonnement HP/HC :**
  - Index heures creuses
  - Index heures pleines
  - La tranche tarifaire ( PTEC )
@@ -38,38 +38,42 @@ Il vous faut récupérer les commandes dans Jeedom pour faire fonctionner le plu
  - Etat
  - Consommation électrique déclarée
 
-**Parametres optionnels :** 
+**Parametres optionnels :**
 
- - Intensité instantanée 
- - Intensité maximal 
+ - Intensité instantanée
+ - Intensité maximal
  - Température Exterieure
 
 **Il permet de visualiser :**
 
- - La puissance instantanée 
+ - La puissance instantanée
  - La température du jour
- - La consommation du jour 
- - La consommation de la veille 
- - La puissance maximale et minimale du jour 
- - Les degrés jour unifiés (DJU) 
- - Les températures 
- - Les prévisions de consommation lorsqu'il existe un historique de plus d'un an 
+ - La consommation du jour
+ - La consommation de la veille
+ - La puissance maximale et minimale du jour
+ - Les degrés jour unifiés (DJU)
+ - Les températures
+ - Les prévisions de consommation lorsqu'il existe un historique de plus d'un an
 
-**Il génère automatiquement les graphiques :** 
+**Il génère automatiquement les graphiques :**
 
- - Consommation des 7 derniers jours (en Kwh) 
- - Consommation du mois par semaine (en Kwh) 
- - Consommation par mois sur 1 an (en Kwh) 
+ - Consommation des 7 derniers jours (en kWh)
+ - Consommation du mois par semaine (en kWh)
+ - Consommation par mois sur 1 an (en kWh)
+ - Consommation pluriannuelle (en kWh)
 
- - Consommation des 7 derniers jours (en euro) 
- - Consommation du mois par semaine (en euro) 
- - Consommation par mois sur 1 an (en euro) 
+ - Consommation des 7 derniers jours (en euro HT)
+ - Consommation du mois par semaine (en euro HT)
+ - Consommation par mois sur 1 an (en euro HT)
  - Consommation par mois TTC
+ - Consommation pluriannuelle (en euro HT)
+
+ - des camemberts affichant la répartitions de consommation des différents sous-consommateurs
 
 **Le plugin vous permet aussi  :**
 
- - De Générer des graphiques sur une période donnée 
- - De générer les factures sur une période donnée (pour toutes les catégories) 
+ - De Générer des graphiques sur une période donnée
+ - De générer les factures sur une période donnée (pour toutes les catégories)
  - De sauvegarder toutes vos données ou d'importer vos données depuis un serveur distant ou par fichier
  - D'avoir des commandes disponibles pour chaque équipement afin de suivre l'historique des comsommations et des coûts indépendamment du plugin.
 	- Jour - 1
@@ -90,11 +94,11 @@ Il vous faut récupérer les commandes dans Jeedom pour faire fonctionner le plu
 
 ### PRODUCTION ELECTRIQUE
 
-**Abonnement de base :** 
+**Abonnement de base :**
  - L'index ( BASE )
  - La puissance apparente instantanée ( PAPP )
 
-**Abonnement HP/HC :** 
+**Abonnement HP/HC :**
  - Index heures creuses
  - Index heures pleine
  - La tranche tarifaire ( PTEC )
@@ -110,10 +114,10 @@ Il vous faut récupérer les commandes dans Jeedom pour faire fonctionner le plu
  - Etat
  - Consommation électrique déclarée
 
-**Parametres optionnels :** 
+**Parametres optionnels :**
 
- - Intensité instantanée 
- - Intensité maximale 
+ - Intensité instantanée
+ - Intensité maximale
  - Température Extérieure
 
 ### EAU :
@@ -132,15 +136,17 @@ Il vous faut récupérer les commandes dans Jeedom pour faire fonctionner le plu
  - 1 Impulsion égal _**x**_ Litre
 
 
-# Présentation : 
+# Présentation :
 ![presentation](../images/presentation.jpg)
+![](../images/presentation2.jpg)
+![](../images/presentation3.jpg)
 
-## Configuration du plugin: 
+## Configuration du plugin:
 [Configuration](configuration.md)
 
 
 
-## Configuration des équipements : 
+## Configuration des équipements :
 [Partie_1](partie_1.md)
 
 

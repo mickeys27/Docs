@@ -17,12 +17,14 @@ Cliquer sur "Ajouter un équipement" <br>
 **Equipement parent** : Permet de rattacher un équipement à  un parent afin de récupérer les informations du père. <br>
 **Informations récupérées du parent :**
  - Abonnement
- - Compteur
+ - Compteur (par défaut, mais modifiable tout de même pour le sous-équipement)
  - Type
  - Commande PTEC
  - Commande IMAX
 
 **Abonnement :** Bleu(Heure pleine heure creuse),Base (heure pleine) <br>
+
+**Production complémentaire :** Lorsqu'une hiérarchie parent enfants (équipement principal, sous-équipement) existe, un graphe camembert de la répartition des consommations apparait. Si la somme de la consommation des enfants dépasse celle de l'équipemnt parent, alors un message d'erreur apparaitra. Si jamais on place en tant que sous équipement la production solaire alors pause le problème puisque la somme de cconsommation dépassera l'équipement parent. Cette cas s'il est cochée permet de passer outre ce problème.<br>
 
 **Je n'ai que la consommation de mon équipement (Exemple FGD-212)  :** <br>
  - Commande disponible : <br>
@@ -34,13 +36,13 @@ Commande disponible : <br>
  - Etat : Votre équipement est allumé ou éteint (Type : numerique 0 ou 1 ) <br>
  - Consommation électrique déclarée  (Wh) La consommation de vos ampoules ou équipements une fois mesurée
 
- ## Si un parent a été attribué : 
+ ## Si un parent a été attribué :
 
  **Application Abonnement :**<br>
  Permet d'applliquer l'abonnement sur l'équipement enfant.<br>
 
  **Puissance personnalisée :**
- Si coché remplace le champ _**Compteur**_ par le champ _**Puissance**_ : 
+ Si coché remplace le champ _**Compteur**_ par le champ _**Puissance**_ :
  - Si le champ est vide alors la jauge sera automatique. Elle prendra la valeur max de la journée qu'elle arrondira au kVa superieur et l'appliquera à la jauge.
  - Si vous spécifiez une valeur, la jauge se configura par rapport à votre valeur.
 
