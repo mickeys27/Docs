@@ -1,3 +1,8 @@
+## V3.22
+- Mise à jour suite au changement du core v4.x
+- Ajout camembert de la Veille
+- Ajout catégorie Domotique
+
 ## V3.21
 - Ajout catégories Piscine et Climatisation
 - Remplacement catégorie Autres automatique par la catégorie Indéfini
