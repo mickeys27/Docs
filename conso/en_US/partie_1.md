@@ -15,14 +15,17 @@ Cliquer sur "Ajouter un équipement" <br>
 **Objet Parent** : renseigner la catégorie de votre équipement. <br>
 
 **Equipement parent** : Permet de rattacher un équipement à  un parent afin de récupérer les informations du père. <br>
+
+**Compteur**: Puissance maximale pouvant être atteinte. La graduation de la jauge de puissance dépend de cette information. Pour les sous-équipemnts il y a la possibilité de définir un maximal différent.
+
 **Informations récupérées du parent :**
  - Abonnement
- - Compteur (par défaut, mais modifiable tout de même pour le sous-équipement)
+ - Compteur/Puissance (par défaut, mais modifiable tout de même pour les sous-équipements pour régler l'échelle de la jauge. Pour cela cocher la case "Puissance personnalisée")
  - Type
  - Commande PTEC
  - Commande IMAX
 
-**Abonnement :** Bleu(Heure pleine heure creuse),Base (heure pleine) <br>
+**Abonnement :** Le type de tarif actuellement géré. Bleu(Heure pleine heure creuse),Base (heure pleine) <br>
 
 **Production complémentaire :** Lorsqu'une hiérarchie parent enfants (équipement principal, sous-équipement) existe, un graphe camembert de la répartition des consommations apparait. Si la somme de la consommation des enfants dépasse celle de l'équipemnt parent, alors un message d'erreur apparaitra. Si jamais on place en tant que sous équipement la production solaire alors pause le problème puisque la somme de cconsommation dépassera l'équipement parent. Cette cas s'il est cochée permet de passer outre ce problème.<br>
 
