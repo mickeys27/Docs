@@ -9,7 +9,7 @@ Le plugin Conso permet de suivre sa consommation :
  - GAZ
  - FIOUL
 
-Pour cela il faut sélectionner les commandes associées dans chaques paramètres. <br>
+Pour cela, il faut sélectionner les commandes associées dans chaque paramètre. <br>
 Il est compatible avec les abonnements de base et les Heures pleines / Heures Creuses. <br><br>
 
 Il vous faut récupérer les commandes dans Jeedom pour faire fonctionner le plugin :<br>
@@ -33,16 +33,16 @@ Il vous faut récupérer les commandes dans Jeedom pour faire fonctionner le plu
  - Puissance instantanée
  - Consommation
 
-**Autres Modules  sans la commande consommation disponible (Ex : FGD-211) :** <br>
+**Autres Modules sans la commande consommation disponible (Ex : FGD-211) :** <br>
 
  - Etat
  - Consommation électrique déclarée
 
-**Parametres optionnels :**
+**Paramètres optionnels :**
 
  - Intensité instantanée
- - Intensité maximal
- - Température Exterieure
+ - Intensité maximale
+ - Température Extérieure
 
 **Il permet de visualiser :**
 
@@ -68,14 +68,14 @@ Il vous faut récupérer les commandes dans Jeedom pour faire fonctionner le plu
  - Consommation par mois TTC
  - Consommation pluriannuelle (en euro HT)
 
- - des camemberts affichant la répartitions de consommation des différents sous-consommateurs
+ - des camemberts affichant la répartition de consommation des différents sous-consommateurs
 
 **Le plugin vous permet aussi  :**
 
  - De Générer des graphiques sur une période donnée
  - De générer les factures sur une période donnée (pour toutes les catégories)
  - De sauvegarder toutes vos données ou d'importer vos données depuis un serveur distant ou par fichier
- - D'avoir des commandes disponibles pour chaque équipement afin de suivre l'historique des comsommations et des coûts indépendamment du plugin.
+ - D'avoir des commandes disponibles pour chaque équipement afin de suivre l'historique des consommations et des coûts indépendamment du plugin.
 	- Jour - 1
 	- Jour - 2
 	- Semaine - 1
@@ -87,7 +87,7 @@ Il vous faut récupérer les commandes dans Jeedom pour faire fonctionner le plu
 	- Printemps
 	- Eté
 	- Automne
-	- Hivers
+	- Hiver
 	- 7 jours en arrière glissant
 	- 15 jours en arrière glissant
 	- 31 jours en arrière glissant
@@ -100,21 +100,21 @@ Il vous faut récupérer les commandes dans Jeedom pour faire fonctionner le plu
 
 **Abonnement HP/HC :**
  - Index heures creuses
- - Index heures pleine
+ - Index heures pleines
  - La tranche tarifaire ( PTEC )
- - La puissance instantannée ( PAPP )
+ - La puissance instantanée ( PAPP )
 
 **Autres Modules avec la commande consommation disponible  (Ex : FGD-212) :** <br>
 
  - Puissance instantanée
  - Consommation
 
-**Autres Modules  sans la commande consommation disponible (Ex : FGD-211) :** <br>
+**Autres Modules sans la commande consommation disponible (Ex : FGD-211) :** <br>
 
  - Etat
  - Consommation électrique déclarée
 
-**Parametres optionnels :**
+**Paramètres optionnels :**
 
  - Intensité instantanée
  - Intensité maximale
@@ -122,17 +122,17 @@ Il vous faut récupérer les commandes dans Jeedom pour faire fonctionner le plu
 
 ### EAU :
 
- - Nombre d'impulsion totale
+ - Nombre d'impulsions totales
  - 1 Impulsion égal _**x**_ Litre
 
 ### GAZ :
 
- - Nombre d'impulsion totale
+ - Nombre d'impulsions totales
  - 1 Impulsion égal _**x**_ dm3
 
 ### FIOUL :
 
- - Nombre d'impulsion totale
+ - Nombre d'impulsions totales
  - 1 Impulsion égal _**x**_ Litre
 
 
