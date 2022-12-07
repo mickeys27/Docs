@@ -1,3 +1,7 @@
+## V3.23
+- Inclure la table conso_jour pour le bouton changement d'ID équipement
+- Agrandissement champs inst1 et imax1 de la table conso_teleinfo pour les installations pro
+
 ## V3.22
 - Mise à jour suite au changement du core v4.x
 - Ajout camembert de la Veille
