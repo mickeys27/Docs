@@ -1,3 +1,6 @@
+## V3.24
+- Préparation base de données pour tarif Tempo (L'installation peut être un peu long suivant la taille des tables)
+
 ## V3.23
 - Inclure la table conso_jour pour le bouton changement d'ID équipement
 - Agrandissement champs inst1 et imax1 de la table conso_teleinfo pour les installations pro
