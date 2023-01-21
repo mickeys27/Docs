@@ -1,3 +1,9 @@
+## V3.26
+- Ajout camembert année-1
+- Possibilité d'afficher systématiquement la température dans le graphe consommation du jour (Paramétrage dans la configuration du plugin)
+- Renommage de l'étiquette de la courbe puissance sans le graphe consommation du jour
+- Ajout Tarif Tempo
+- Changer l'ordre des factures du plus récent au plus ancien
 
 ## V3.25
 - Préparation base de données pour tarif Tempo 2ème partie (L'installation peut être un peu long suivant la taille des tables)
