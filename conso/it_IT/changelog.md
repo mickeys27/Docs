@@ -1,3 +1,6 @@
+## V3.27
+- Permettre de visualiser les camemberts sur les sous-niveaux quand plus de 2 niveaux de hiérarchie
+
 ## V3.26
 - Ajout camembert année-1
 - Possibilité d'afficher systématiquement la température dans le graphe consommation du jour (Paramétrage dans la configuration du plugin)
