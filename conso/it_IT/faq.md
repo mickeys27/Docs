@@ -4,11 +4,14 @@
 S'il vous manque des informations, que vous ne pouvez pas récupérer, le tuto vous permettra de les simuler.
 
 L'objectif de ce tuto est d'utiliser le Plugin sans les informations remontées par la teleinfo.
-S'il vous manque : PTEC , index ... 
+S'il vous manque : PTEC , index ...
 
 [Voir le Tuto](./tutoriel_hp_hc.md)
 
 ## Questions Fréquentes
+
+### Je viens de paramétrer l'application, j'ai mon premier équipement et le panel tourne en boucle
+Il faut attendre au moins 3h que des données soit remontées et que la synchronisation entre les infos au fil de l'eau (Conso_teleinfo) soit remontées sur les infos du jours (conso_jour). Il est possible de le faire plus rapidement en allant dans le moteur de tâches et en forçant l'exécution manuellement. Il est intitulé "UpdateTable" pour conso
 
 ### Je ne trouve pas le Widget dans le Dashboard de Jeedom
 Le plugin ne s'affiche pas sur le Dashboard de Jeedom mais dans un panel. Il faut se rendre dans l'onglet Accueil->Suivi Conso
