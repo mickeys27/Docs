@@ -1,3 +1,9 @@
+## V3.28
+- Correction problème libellé total dans facture pour le gaz et le fuel
+- Bug de prise en compte du nombre de kWh dans les taxes pour le tarif TEMPO
+- Correction des couleurs graphes et tableau variation pour TEMPO
+- Correction affichage des valeurs dans les graphes pour le gaz et le fioul
+
 ## V3.27
 - Permettre de visualiser les camemberts sur les sous-niveaux quand plus de 2 niveaux de hiérarchie
 
