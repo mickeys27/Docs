@@ -1,3 +1,6 @@
+## V3.29
+- Correction graph jour dans partie mobile
+
 ## V3.28
 - Correction problème libellé total dans facture pour le gaz et le fuel
 - Bug de prise en compte du nombre de kWh dans les taxes pour le tarif TEMPO
