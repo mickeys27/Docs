@@ -1,3 +1,7 @@
+## V3.30
+- Forcer l'affichage des graph TEMPO en stack quand un historique est présent
+- Améliorer visibilité température dans graphe du jour
+
 ## V3.29
 - Correction graph jour dans partie mobile
 - Changement couleur tarif Tempo Bleu HP
