@@ -1,3 +1,6 @@
+## V3.31
+- Correction bug mise à jour index HC bleu en tarif TEMPO
+
 ## V3.30
 - Forcer l'affichage des graph TEMPO en stack quand un historique est présent
 - Améliorer visibilité température dans graphe du jour
