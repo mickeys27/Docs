@@ -1,3 +1,6 @@
+## V3.33
+- Correction coleur tarif Tempo dans graphe consommation du jour
+
 ## V3.32
 - Ajout commande "Abonnement en cours pour les tarifs HP2/HC2 (Tempo Blanc), HP3/HC3 (Tempo Rouge)"
 - Suppression de la suppression automatique des données < 5 dans conso_teleinfo
@@ -12,7 +15,7 @@
 ## V3.29
 - Correction graph jour dans partie mobile
 - Changement couleur tarif Tempo Bleu HP
-
+SS
 ## V3.28
 - Correction problème libellé total dans facture pour le gaz et le fuel
 - Bug de prise en compte du nombre de kWh dans les taxes pour le tarif TEMPO
