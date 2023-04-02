@@ -1,5 +1,9 @@
+## V3.34
+- Amélioration couleur camemberts
+- Prise en compte hp2, hc2, hp3, hc3 dans le correcteur de Données
+
 ## V3.33
-- Correction coleur tarif Tempo dans graphe consommation du jour
+- Correction couleur tarif Tempo dans graphe consommation du jour
 
 ## V3.32
 - Ajout commande "Abonnement en cours pour les tarifs HP2/HC2 (Tempo Blanc), HP3/HC3 (Tempo Rouge)"
