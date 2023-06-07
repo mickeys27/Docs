@@ -1,3 +1,10 @@
+## V3.35
+- Bugfix modification des données téléinfo dans Configuration/Données
+- Bugfix libellé Prix unitaire HT HP dans tableau saisie des prix
+- Utilisation du calendrier du Core
+- Bugfix de la fonction de modification de la table jour en mode consultation des données
+- BugFix de la fonction "identifier les erreurs"
+
 ## V3.34
 - Amélioration couleur camemberts
 - Prise en compte hp2, hc2, hp3, hc3 dans le correcteur de Données
