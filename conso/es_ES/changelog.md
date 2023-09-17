@@ -1,3 +1,17 @@
+## V3.36
+- Bugbix calcul de l'abonnement quand à cheval sur plusieurs mois
+- Ajout contrepartie en kWh pour le gaz dans le tableau des prévisions
+- Unité en litre pour le fuel dans tout le panel
+- Unité en m3 + kWh pour le gaz dans tout le panel
+- Correction de l'intitulé de saisie du prix pour le gaz (kWh et pas m3) et pour le fuel
+- Gestion camembert eau + unité
+- Correction unité de l'eau sur les statistiques périodes
+- Update pour core V4.4
+- Ajoût paramétrage pour choisir la manière de calculer l'abonnement jour
+- Correction discordance camembert somme HP enfants ou somme HC enfants > père
+- Correction bug bouton Purger
+- Correction Problème correcteur
+
 ## V3.35
 - Bugfix modification des données téléinfo dans Configuration/Données
 - Bugfix libellé Prix unitaire HT HP dans tableau saisie des prix
