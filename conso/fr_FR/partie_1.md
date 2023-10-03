@@ -47,8 +47,8 @@ Commande disponible : <br>
  Dans le cas où aucune case n'est cochée sur l'enfant, alors ce sera le libellé de l'équipement qui apparaitra dans le camembert.
  Il peut y avoir plusieurs niveaux de hiérarchie. Le camembert affiché concernera alors le niveau de l'enfant sur lequel on se trouve.<br>.<br>
  ![Hierarchie](../images/Hierarchie.png)<br><br>
- ![Statistique_fils](../images/Statistique fils.png)<br><br>
- ![Statistique_petit_fils](../images/Statistique petit fils.png)<br>
+ ![Statistique_fils](../images/Statistique_fils.png)<br><br>
+ ![Statistique_petit_fils](../images/Statistique_petit_fils.png)<br>
 
  Une catégorie "indéfinie" apparaitra automatiquement dans le camembert. Elle représente l'cart entre la consommation du père et la somme de consommation des enfants. Elle représente donc la partie détaillée non mesurée de la consommation.
 
