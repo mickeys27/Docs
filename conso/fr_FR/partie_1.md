@@ -42,7 +42,7 @@ Commande disponible : <br>
 **Enregistrement de la consommation à J-1 :** <br>
  Ce paramétrage est dédié à l'utilisation des plugin type Enedis ou Gaspar qui remontent le jour J l'information de consommation de la veille. Cela permet d'enregistrer la consommation sur la date de la veille. En cas d'utilisation il n'y aura donc aucune information sur le jour en cours dans les graphiques et dans les tableaux de consommation/prix.
 
-**Catégories: ** <br>
+**Catégories :** <br>
  Elles servent quand une hiérarchie père enfants existe. (Exemple: père: consommation de la maison, enfants: consommation du chauffage, consommation de la lumière ...). Elles servent pour l'affichage d'un camembert de répartition des consommation dans le tableau Statisitique. Elles ne sont utiles que pour les enfants dans la hiérarchie. Elles permettent de regrouper plusieurs équipement. Par exemple si on a 2 équipements pour la lumère (Salle à manger, Cuisine), en cichant la catégorie "lumière", cela permettra d'avoir une seul rubrique lumière dans le camembert représentant les 2 lumières salle à manger et cuisine.
  Dans le cas où aucune case n'est cochée sur l'enfant, alors ce sera le libellé de l'équipement qui apparaitra dans le camembert.
  Il peut y avoir plusieurs niveaux de hiérarchie. Le camembert affiché concernera alors le niveau de l'enfant sur lequel on se trouve.<br>.<br>
