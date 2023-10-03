@@ -45,10 +45,10 @@ Commande disponible : <br>
 **Catégories: ** <br>
  Elles servent quand une hiérarchie père enfants existe. (Exemple: père: consommation de la maison, enfants: consommation du chauffage, consommation de la lumière ...). Elles servent pour l'affichage d'un camembert de répartition des consommation dans le tableau Statisitique. Elles ne sont utiles que pour les enfants dans la hiérarchie. Elles permettent de regrouper plusieurs équipement. Par exemple si on a 2 équipements pour la lumère (Salle à manger, Cuisine), en cichant la catégorie "lumière", cela permettra d'avoir une seul rubrique lumière dans le camembert représentant les 2 lumières salle à manger et cuisine.
  Dans le cas où aucune case n'est cochée sur l'enfant, alors ce sera le libellé de l'équipement qui apparaitra dans le camembert.
- Il peut y avoir plusieurs niveaux de hiérarchie. Le camembert affiché concernera alors le niveau de l'enfant sur lequel on se trouve.
- ![ecq](../images/Hierarchie.png)
- ![ecq](../images/Statistique fils.png)
- ![ecq](../images/Statistique petit fils.png)
+ Il peut y avoir plusieurs niveaux de hiérarchie. Le camembert affiché concernera alors le niveau de l'enfant sur lequel on se trouve.<br>
+ ![ecq](../images/Hierarchie.png)<br>
+ ![ecq](../images/Statistique fils.png)<br>
+ ![ecq](../images/Statistique petit fils.png)<br>
 
  Une catégorie "indéfinie" apparaitra automatiquement dans le camembert. Elle représente l'cart entre la consommation du père et la somme de consommation des enfants. Elle représente donc la partie détaillée non mesurée de la consommation.
 
