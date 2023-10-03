@@ -39,10 +39,13 @@ Commande disponible : <br>
  - Etat : Votre équipement est allumé ou éteint (Type : numerique 0 ou 1 ) <br>
  - Consommation électrique déclarée  (Wh) La consommation de vos ampoules ou équipements une fois mesurée
 
- ## Si un parent a été attribué :
+ **Enregistrement de la consommation à J-1 :** <br>
+ Ce paramétrage est dédié à l'utilisation des plugin type Enedis ou Gaspar qui remontent le jour J l'information de consommation de la veille. Cela permet d'enregistrer la consommation sur la date de la veille. En cas d'utilisation il n'y aura donc aucunes informations sur le jour en cours dans les graphiques et dans les tableaux de consommation/prix.
+
+## Si un parent a été attribué :
 
  **Application Abonnement :**<br>
- Permet d'applliquer l'abonnement sur l'équipement enfant.<br>
+ Permet d'appliquer l'abonnement sur l'équipement enfant.<br>
 
  **Puissance personnalisée :**
  Si coché remplace le champ _**Compteur**_ par le champ _**Puissance**_ :
