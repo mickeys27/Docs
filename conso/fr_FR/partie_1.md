@@ -52,10 +52,10 @@ Commande disponible : <br>
 
  Une catégorie "indéfinie" apparaitra automatiquement dans le camembert. Elle représente l'cart entre la consommation du père et la somme de consommation des enfants. Elle représente donc la partie détaillée non mesurée de la consommation.
 
- Exemple: Il peut être interressant de l'utiliser pour calculer son taux d'autoconsommation quand on possède des panneaux solaires. Il suffit alors de mesurer la consommation globale de la maison en tant que père et d'ensuite renseigner un enfant qui récupèrera la teleinfo du compteur Linky (représentant sa consommation). Le camembert donnera alors le taux d'autoconsommation dans la catégorie "Indéfinie" qui sera en réalité ce que la maison a consommée à partir de la production solaire.
+ _**Exemple**_: Il peut être interressant de l'utiliser pour calculer son taux d'autoconsommation quand on possède des panneaux solaires. Il suffit alors de mesurer la consommation globale de la maison en tant que père et d'ensuite renseigner un enfant qui récupèrera la teleinfo du compteur Linky (représentant sa consommation). Le camembert donnera alors le taux d'autoconsommation dans la catégorie "Indéfinie" qui sera en réalité ce que la maison a consommée à partir de la production solaire.
 
 # Important :
- Si la somme de la consommation des enfants est supérieure à celle du père, le camembert ne s'affichera pas. Le moyen de passer outre cela est de cocher la case "Production complémentaire" au niveau du paramétrage de l'équipement père pour indiquer que l'on produit plus que ce que l'on consomme.
+ _**Si la somme de la consommation des enfants est supérieure à celle du père, le camembert ne s'affichera pas. Le moyen de passer outre cela est de cocher la case "Production complémentaire" au niveau du paramétrage de l'équipement père pour indiquer que l'on produit plus que ce que l'on consomme.**_
 
 
 ## Si un parent a été attribué :

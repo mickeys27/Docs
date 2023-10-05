@@ -19,13 +19,20 @@ _**Plugins / Energie / Suivi Conso / configuration**_ <br>
 
 **Utiliser les commandes saisons** : Cocher cette case permet de créer pour chaque équipement les commandes de report de consommations et de coûts pour les 4 saisons passées (Printemps, Eté, Automne, Hivers). <br>
 
-**Affichage systématique de la température dans graphe du jour** : Cocher cette case permet d'avoir systématiquement le graphique de la température dnas le tableau "Consommation du jour" <br>
-
 **Epuration et sauvegarde automatique de conso_teleinfo** : Permet d'épurer la table conso_teleinfo (relevé détaillé des infos sur la journée) en fonction d'un délai en mois renseigné dans le champs: 'Sauvegarder les valeurs de plus de * mois'. Les informations épurées seront stockées dans un fichier zip se trouvant dans le répertoire backup.
 ![emplacement_sauv](../images/emplacement_sauv.png)
+
+**Affichage systématique de la température dans graphe du jour** : Cocher cette case permet d'avoir systématiquement le graphique de la température dnas le tableau "Consommation du jour" <br
+
+**Factures: Calcul de l'abonnement à l'année (Abonnement jour = Coût Abonnement mensuel * 12 / 365)** : Paramétrage de la manière dont on calcul l'abonnement au jour. Soit lissé sur l'année, soit au prorata du mois concerné. Par défaut l'abonnement jour est calculé comme ceci: Coût abonnement mensuel <> / nombre de jours dans le mois<br>
 
 **Devise Monétaire** : Choix de la devise monétaire apparaissant dans le dashboard et les factures<br>
 
 **Reconstruction de la base de données !!!** : Permet de réparer la base de données du plugin en cas de problème. _**Cet outil est à utiliser avec précaution et en ayant fait une sauvegarde préalable**_ <br>
 
 ![reconstructionbase](../images/reconstructionbase.png)
+
+# Important :
+Pour visualiser l'écran principal du plugin (Panel) il faut cocher "Afficher le panneau desktop"
+
+![conso_screenshot2](../images/conso_screenshot2.png)
