@@ -1,3 +1,7 @@
+## V3.37
+- Correctif affichage date d'application tableaux abonnement et Tva
+- Maj de la documentation
+
 ## V3.36
 - Bugbix calcul de l'abonnement quand à cheval sur plusieurs mois
 - Ajout contrepartie en kWh pour le gaz dans le tableau des prévisions
