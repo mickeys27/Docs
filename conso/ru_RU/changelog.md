@@ -1,3 +1,9 @@
+## V3.38
+- Modification de l'info bulle sur la case "Enregistrement de la consommation à J-1" pour essayer d'être plus compréhensible
+- Correction d'affichage des valeurs avec trop de décimales pour le gaz
+- Correction couleur texte Min/Max pour le graphe "Consommation du jour" en fonction du thème choisi
+- Correction des unités affichées dans le tableau des périodes pour le gaz, fuel et eau
+
 ## V3.37
 - Correctif affichage date d'application tableaux abonnement et Tva
 - Maj de la documentation

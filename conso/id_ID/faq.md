@@ -10,10 +10,10 @@ S'il vous manque : PTEC , index ...
 
 ## Questions Fréquentes
 
-### Je viens de paramétrer l'application, j'ai mon premier équipement et le panel tourne en boucle
+#### Je viens de paramétrer l'application, j'ai mon premier équipement et le panel tourne en boucle
 Il faut attendre au moins 3h que des données soit remontées et que la synchronisation entre les infos au fil de l'eau (Conso_teleinfo) soit remontées sur les infos du jours (conso_jour). Il est possible de le faire plus rapidement en allant dans le moteur de tâches et en forçant l'exécution manuellement. Il est intitulé "UpdateTable" pour conso
 
-### Je ne trouve pas le Widget dans le Dashboard de Jeedom
+#### Je ne trouve pas le Widget dans le Dashboard de Jeedom
 Le plugin ne s'affiche pas sur le Dashboard de Jeedom mais dans un panel. Il faut se rendre dans l'onglet Accueil->Suivi Conso
 
 #### Le Panel ne s affiche pas dans L'onglet Accueil
@@ -40,3 +40,12 @@ CREATE TABLE `conso_tmp` (
   PRIMARY KEY (`id_ecq`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 ```
+#### Pas de remontée/visualisation de consommation dans les graphiques jours/Mois/année
+Essayer de décocher « Variation: Insère si Conso > Conso précédente » dans le menu configuration du plugin et relancer le démon SuiviConso
+
+#### Bouton "Purger" provoque une erreur: [MySQL] Error code : 21S01 (1136). Column count doesn’t match value count at row 1 : INSERT IGNORE INTO conso_teleinfo_save SELECT * FROM conso_teleinfo
+Cela veut dire qu'il manque des champs dans la table conso_teleinfo_save (Sans doute lors de la migration pour ajouter le tarif Tempo. Il faut alors exécuter la requête suivante:
+```sql
+drop table conso_teleinfo_save
+...
+et ensuite, relancer la purge
