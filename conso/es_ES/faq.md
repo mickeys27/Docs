@@ -47,5 +47,5 @@ Essayer de décocher « Variation: Insère si Conso > Conso précédente » dans
 Cela veut dire qu'il manque des champs dans la table conso_teleinfo_save (Sans doute lors de la migration pour ajouter le tarif Tempo. Il faut alors exécuter la requête suivante:
 ```sql
 drop table conso_teleinfo_save
-...
+```
 et ensuite, relancer la purge
