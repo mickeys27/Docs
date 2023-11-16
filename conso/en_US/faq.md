@@ -48,4 +48,9 @@ Cela veut dire qu'il manque des champs dans la table conso_teleinfo_save (Sans d
 ```sql
 drop table conso_teleinfo_save
 ```
-et ensuite, relancer la purge
+et ensuite, relancer la purge.
+
+#### Comment déterminer la valeur du champs "Variation max autorisé entre 2 mesures" en mode FGD212
+Imaginons un chauffe eau qui consomme 2000W instantané. S’il consomme pendant 1h il aura alors consommé 2000 Wh. Les relevés dans suivi conso sont en générale tout les 1min 30 , 1min 50. On calcul donc la consommation pour se délai: 1h = 3600s, 1min 50 = 110s. On fait une régle de 3:
+2000Wh * 110 / 3600 = 61,111 Wh
+Donc le chauffe eau consommera au maximum 61 Wh entre chaque relevé. La dessus on se prend de la marge, car de toute façon quand il y a un pic de consommation cela se chiffre en général en plusieurs dizaines de kWh. Du coup, 500 serait une valeur raisonnable dans la case « Variation max autorisée »

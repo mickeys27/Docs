@@ -1,3 +1,8 @@
+## V3.39
+- Préciser que le prix de l'abonnement est mensuel lors de sa saisie
+- Permettre l'affichage du camembert s'il manque des infos sur le jour J 'cas alimentation via plugin Enedis'
+- Correction splines empilés pour info année n-1 pour les graphes jours/semaines/mois
+
 ## V3.38
 - Modification de l'info bulle sur la case "Enregistrement de la consommation à J-1" pour essayer d'être plus compréhensible
 - Correction d'affichage des valeurs avec trop de décimales pour le gaz
