@@ -9,10 +9,8 @@ Le plugin Conso permet de suivre sa consommation :
  - GAZ
  - FIOUL
 
-Pour cela, il faut sélectionner les commandes associées dans chaque paramètre. <br>
-Il est compatible avec les abonnements de base et les Heures pleines / Heures Creuses. <br><br>
-
-Il vous faut récupérer les commandes dans Jeedom pour faire fonctionner le plugin :<br>
+Pour cela il faut créer et renseigner des équipements dans le plugin et garnir les commandes associées dans chaques paramètres avec les informations de mesure en provenance des différents capteurs présents dans Jeedom. <br>
+Il est compatible nativement avec les abonnements de base, Heures pleines/Heures Creuses, Tempo. Il est également possible de traiter d'autres types d'abonnement nécessitant jusqu'à 6 tarifs en utilisant le choix "Tempo, exemple: Super Heure Creuse <br><br>
 
 ## Paramètres obligatoires :
 
@@ -25,8 +23,19 @@ Il vous faut récupérer les commandes dans Jeedom pour faire fonctionner le plu
 **Abonnement HP/HC :**
  - Index heures creuses
  - Index heures pleines
- - La tranche tarifaire ( PTEC )
+ - La tranche tarifaire ( PTEC ) avec les valeurs attendues: HP ou HC.
  - La puissance instantanée ( PAPP )
+
+ **Abonnement Tempo :**
+  - Index heures creuses bleu
+  - Index heures pleines bleu
+  - Index heures creuses blanc
+  - Index heures pleines blanc
+  - Index heures creuses rouge
+  - Index heures pleines rouge
+  - La tranche tarifaire ( PTEC ) avec les valeurs attendues: HPJB, HCJB, HPJW, HCHW, HPJR, HCJR.
+  - La puissance instantanée ( PAPP )
+
 
 **Autres Modules avec la commande consommation disponible  (Ex : FGD-212) :** <br>
 

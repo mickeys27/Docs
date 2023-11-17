@@ -1,3 +1,87 @@
+## V3.39
+- Préciser que le prix de l'abonnement est mensuel lors de sa saisie
+- Permettre l'affichage du camembert s'il manque des infos sur le jour J 'cas alimentation via plugin Enedis'
+- Correction splines empilés pour info année n-1 pour les graphes jours/semaines/mois
+
+## V3.38
+- Modification de l'info bulle sur la case "Enregistrement de la consommation à J-1" pour essayer d'être plus compréhensible
+- Correction d'affichage des valeurs avec trop de décimales pour le gaz
+- Correction couleur texte Min/Max pour le graphe "Consommation du jour" en fonction du thème choisi
+- Correction des unités affichées dans le tableau des périodes pour le gaz, fuel et eau
+
+## V3.37
+- Correctif affichage date d'application tableaux abonnement et Tva
+- Maj de la documentation
+
+## V3.36
+- Bugbix calcul de l'abonnement quand à cheval sur plusieurs mois
+- Ajout contrepartie en kWh pour le gaz dans le tableau des prévisions
+- Unité en litre pour le fuel dans tout le panel
+- Unité en m3 + kWh pour le gaz dans tout le panel
+- Correction de l'intitulé de saisie du prix pour le gaz (kWh et pas m3) et pour le fuel
+- Gestion camembert eau + unité
+- Correction unité de l'eau sur les statistiques périodes
+- Update pour core V4.4
+- Ajoût paramétrage pour choisir la manière de calculer l'abonnement jour
+- Correction discordance camembert somme HP enfants ou somme HC enfants > père
+- Correction bug bouton Purger
+- Correction Problème correcteur
+
+## V3.35
+- Bugfix modification des données téléinfo dans Configuration/Données
+- Bugfix libellé Prix unitaire HT HP dans tableau saisie des prix
+- Utilisation du calendrier du Core
+- Bugfix de la fonction de modification de la table jour en mode consultation des données
+- BugFix de la fonction "identifier les erreurs"
+
+## V3.34
+- Amélioration couleur camemberts
+- Prise en compte hp2, hc2, hp3, hc3 dans le correcteur de Données
+
+## V3.33
+- Correction couleur tarif Tempo dans graphe consommation du jour
+
+## V3.32
+- Ajout commande "Abonnement en cours pour les tarifs HP2/HC2 (Tempo Blanc), HP3/HC3 (Tempo Rouge)"
+- Suppression de la suppression automatique des données < 5 dans conso_teleinfo
+
+## V3.31
+- Correction bug mise à jour index HC bleu en tarif TEMPO
+
+## V3.30
+- Forcer l'affichage des graph TEMPO en stack quand un historique est présent
+- Améliorer visibilité température dans graphe du jour
+
+## V3.29
+- Correction graph jour dans partie mobile
+- Changement couleur tarif Tempo Bleu HP
+SS
+## V3.28
+- Correction problème libellé total dans facture pour le gaz et le fuel
+- Bug de prise en compte du nombre de kWh dans les taxes pour le tarif TEMPO
+- Correction des couleurs graphes et tableau variation pour TEMPO
+- Correction affichage des valeurs dans les graphes pour le gaz et le fioul
+
+## V3.27
+- Permettre de visualiser les camemberts sur les sous-niveaux quand plus de 2 niveaux de hiérarchie
+
+## V3.26
+- Ajout camembert année-1
+- Possibilité d'afficher systématiquement la température dans le graphe consommation du jour (Paramétrage dans la configuration du plugin)
+- Renommage de l'étiquette de la courbe puissance sans le graphe consommation du jour
+- Ajout Tarif Tempo
+- Changer l'ordre des factures du plus récent au plus ancien
+
+## V3.25
+- Préparation base de données pour tarif Tempo 2ème partie (L'installation peut être un peu long suivant la taille des tables)
+
+## V3.24
+- Préparation base de données pour tarif Tempo (L'installation peut être un peu long suivant la taille des tables)
+
+## V3.23
+- Inclure la table conso_jour pour le bouton changement d'ID équipement
+- Agrandissement champs inst1 et imax1 de la table conso_teleinfo pour les installations pro
+
 ## V3.22
 - Mise à jour suite au changement du core v4.x
 - Ajout camembert de la Veille
