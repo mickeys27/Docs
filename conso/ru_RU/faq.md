@@ -1,7 +1,7 @@
 # FAQ du plugin Suivi Conso
 
 ## Il me manque des informations HP/HC/PTEC
-S'il vous manque des informations, que vous ne pouvez pas récupérer, le tuto vous permettra de les simuler.
+S'il vous manque des informations que vous ne pouvez pas récupérer, le tuto vous permettra de les simuler.
 
 L'objectif de ce tuto est d'utiliser le Plugin sans les informations remontées par la teleinfo.
 S'il vous manque : PTEC , index ...
@@ -11,7 +11,8 @@ S'il vous manque : PTEC , index ...
 ## Questions Fréquentes
 
 #### Je viens de paramétrer l'application, j'ai mon premier équipement et le panel tourne en boucle
-Il faut attendre au moins 3h que des données soit remontées et que la synchronisation entre les infos au fil de l'eau (Conso_teleinfo) soit remontées sur les infos du jours (conso_jour). Il est possible de le faire plus rapidement en allant dans le moteur de tâches et en forçant l'exécution manuellement. Il est intitulé "UpdateTable" pour conso
+Il faut attendre au moins 3h que des données soit créées et que la synchronisation entre les infos au fil de l'eau (Conso_teleinfo) soient remontées sur les infos du jours (conso_jour). Il est possible de le faire plus rapidement en allant dans le moteur de tâches et en forçant l'exécution manuellement. Il est intitulé "UpdateTable" pour conso.
+Controler également qu'il y a au minimum un équipement actif et vérifier que celui-ci a bien une consommation qui évolue.
 
 #### Je ne trouve pas le Widget dans le Dashboard de Jeedom
 Le plugin ne s'affiche pas sur le Dashboard de Jeedom mais dans un panel. Il faut se rendre dans l'onglet Accueil->Suivi Conso
@@ -20,7 +21,7 @@ Le plugin ne s'affiche pas sur le Dashboard de Jeedom mais dans un panel. Il fau
 Il faut activer l'affichage dans la configuration du plugin (Plugin -> Gestion des plugins -> suivi Conso -> Afficher le panel desktop)
 
 #### Le plugin ne passe pas de HP a HC
-Si vous passez par le plugin teleinfo, il faut verifier que la commande PTEC soit de type Autre puis relancer le Deamon Téléinfo
+Si vous passez par le plugin teleinfo, il faut vérifier que la commande PTEC soit de type Autre puis relancer le démon Téléinfo
 
 #### Table 'jeedom.conso_tmp' doesn't exist
 Erreur sur conso::StartDeamon() : [MySQL] Error code : 42S02 (1146). Table 'jeedom.conso_tmp' doesn't exist

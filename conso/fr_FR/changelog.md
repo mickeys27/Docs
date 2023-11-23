@@ -1,3 +1,8 @@
+## V3.40
+- Ajout puissance abonnement 96 et 310 kVA
+- Correction calcul abonnement mode mois pour mois complet
+- Modification couleur graphe jours blancs Tempo
+
 ## V3.39
 - Préciser que le prix de l'abonnement est mensuel lors de sa saisie
 - Permettre l'affichage du camembert s'il manque des infos sur le jour J 'cas alimentation via plugin Enedis'
