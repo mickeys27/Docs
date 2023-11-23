@@ -30,14 +30,21 @@ Cliquer sur "Ajouter un équipement" <br>
 **Production complémentaire :** Lorsqu'une hiérarchie parent enfants (équipement principal, sous-équipement) existe, un graphe camembert de la répartition des consommations apparait. Si la somme de la consommation des enfants dépasse celle de l'équipemnt parent, alors un message d'erreur apparaitra. Si jamais on place en tant que sous équipement la production solaire alors pause le problème puisque la somme de cconsommation dépassera l'équipement parent. Cette cas s'il est cochée permet de passer outre ce problème.<br>
 
 **Je n'ai que la consommation de mon équipement (Exemple FGD-212)  :** <br>
- - Commande disponible : <br>
- - Consommation Kwh ou Wh <br>
+Généralement sur Non pour la teleinfo et sur sur Oui pour les équipements type Fibaro Wall plug <br>
+Commande disponible : <br>
+ - Consommation avec choix de l'unité (Kwh ou Wh) <br>
+ - Variation max autorisée entre 2 mesures: Permet d'éviter de fausser les relevés en cas de pics de consommation survenu par erreur.
  - Puissance PAPP
+ - PTEC (On attends HPJB, HCJB, HPJW, HCJW, HPJR, HCJR pour Tempo; HP, HC pour un tarif HP/HC; HP pour le tarif Base)
+ - INST1 (Intensité instantanée)
+ - IMAX1 (Intensité maximale atteinte) On peut choisir d'avoir l'intensité maximale absolue ou bien celle de la journée. Il faut alors historiser la commande utilisée et renseigner le champ avec une commande telle que : maxbetween(#[Consommation][Teleinfo 1][Intensité instantanée]#, midnight,now)
+ - température extérieure
 
 **je n'ai que la puissance de mon équipement (Exemple FGD-211) :** <br>
+Il faut fournir l état de l équipement et la consommation électrique déclarée.<br>
 Commande disponible : <br>
- - Etat : Votre équipement est allumé ou éteint (Type : numerique 0 ou 1 ) <br>
- - Consommation électrique déclarée  (Wh) La consommation de vos ampoules ou équipements une fois mesurée
+ - Etat : Votre équipement est allumé ou éteint (Type : numerique entre 0 et 1. Pour une lumière allumé à 60% il est possible de mettre 0.6. Cela permettra de ne compatbiliser que 60% de la "puissance électrique déclarée"). On peut mettre 1 en fixe, si on considère que l'équipement consomme tout le temps et que la "puissance électrique déclarée" varie <br>
+ - Consommation électrique déclarée  (Wh) La consommation de vos ampoules ou équipements une fois mesurée. On peut mettre une valeur fixe qui correspond par exemple à la consommation d'une ampoule, et alors la puissance comptabilisé dépendra alors de l'état (0: aucune concsommation, 1: consommation maximale, entre 0 et 1: consommation au prorata de la valeur. Exemple si 0.6 alors puissance consommée = Consommation électrique déclarée * 0.6)
 
 **Enregistrement de la consommation à J-1 :** <br>
  Ce paramétrage est dédié à l'utilisation des plugin type Enedis ou Gaspar qui remontent le jour J l'information de consommation de la veille. Cela permet d'enregistrer la consommation sur la date de la veille. En cas d'utilisation il n'y aura donc aucune information sur le jour en cours dans les graphiques et dans les tableaux de consommation/prix.
