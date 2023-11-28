@@ -33,7 +33,7 @@ Il est compatible nativement avec les abonnements de base, Heures pleines/Heures
   - Index heures pleines blanc
   - Index heures creuses rouge
   - Index heures pleines rouge
-  - La tranche tarifaire ( PTEC ) avec les valeurs attendues: HPJB, HCJB, HPJW, HCHW, HPJR, HCJR.
+  - La tranche tarifaire ( PTEC ) avec les valeurs attendues: HPJB, HCJB, HPJW, HCJW, HPJR, HCJR.
   - La puissance instantanée ( PAPP )
 
 
