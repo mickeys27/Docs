@@ -43,21 +43,21 @@ Commande disponible : <br>
 **je n'ai que la puissance de mon équipement (Exemple FGD-211) :** <br>
 Il faut fournir l état de l équipement et la consommation électrique déclarée.<br>
 Commande disponible : <br>
- - Etat : Votre équipement est allumé ou éteint (Type : numerique entre 0 et 1. Pour une lumière allumé à 60% il est possible de mettre 0.6. Cela permettra de ne compatbiliser que 60% de la "puissance électrique déclarée"). On peut mettre 1 en fixe, si on considère que l'équipement consomme tout le temps et que la "puissance électrique déclarée" varie <br>
- - Consommation électrique déclarée  (Wh) La consommation de vos ampoules ou équipements une fois mesurée. On peut mettre une valeur fixe qui correspond par exemple à la consommation d'une ampoule, et alors la puissance comptabilisé dépendra alors de l'état (0: aucune concsommation, 1: consommation maximale, entre 0 et 1: consommation au prorata de la valeur. Exemple si 0.6 alors puissance consommée = Consommation électrique déclarée * 0.6)
+ - Etat : Votre équipement est allumé ou éteint (Type : numerique entre 0 et 1. Pour une lumière allumé à 60% il est possible de mettre 0.6. Cela permettra de ne comptabiliser que 60% de la "puissance électrique déclarée"). On peut mettre 1 en fixe, si on considère que l'équipement consomme tout le temps et que la "puissance électrique déclarée" varie <br>
+ - Consommation électrique déclarée  (Wh) La consommation de vos ampoules ou équipements une fois mesurée. On peut mettre une valeur fixe qui correspond par exemple à la consommation d'une ampoule, et alors la puissance comptabilisé dépendra alors de l'état (0: aucune consommation, 1: consommation maximale, entre 0 et 1: consommation au prorata de la valeur. Exemple si 0.6 alors puissance consommée = Consommation électrique déclarée * 0.6)
 
 **Enregistrement de la consommation à J-1 :** <br>
  Ce paramétrage est dédié à l'utilisation des plugin type Enedis ou Gaspar qui remontent le jour J l'information de consommation de la veille. Cela permet d'enregistrer la consommation sur la date de la veille. En cas d'utilisation il n'y aura donc aucune information sur le jour en cours dans les graphiques et dans les tableaux de consommation/prix.
 
 **Catégories :** <br>
- Elles servent quand une hiérarchie père enfants existe. (Exemple: père: consommation de la maison, enfants: consommation du chauffage, consommation de la lumière ...). Elles servent pour l'affichage d'un camembert de répartition des consommation dans le tableau Statisitique. Elles ne sont utiles que pour les enfants dans la hiérarchie. Elles permettent de regrouper plusieurs équipement. Par exemple si on a 2 équipements pour la lumère (Salle à manger, Cuisine), en cichant la catégorie "lumière", cela permettra d'avoir une seul rubrique lumière dans le camembert représentant les 2 lumières salle à manger et cuisine.
+ Elles servent quand une hiérarchie père enfants existe. (Exemple: père: consommation de la maison, enfants: consommation du chauffage, consommation de la lumière ...). Elles servent pour l'affichage d'un camembert de répartition des consommation dans le tableau Statisitique. Elles ne sont utiles que pour les enfants dans la hiérarchie. Elles permettent de regrouper plusieurs équipement. Par exemple si on a 2 équipements pour la lumière (Salle à manger, Cuisine), en cliquant la catégorie "lumière", cela permettra d'avoir une seul rubrique lumière dans le camembert représentant les 2 lumières salle à manger et cuisine.
  Dans le cas où aucune case n'est cochée sur l'enfant, alors ce sera le libellé de l'équipement qui apparaitra dans le camembert.
  Il peut y avoir plusieurs niveaux de hiérarchie. Le camembert affiché concernera alors le niveau de l'enfant sur lequel on se trouve.<br>.<br>
  ![Hierarchie](../images/Hierarchie.png)<br><br>
  ![Statistique_fils](../images/Statistique_fils.png)<br><br>
  ![Statistique_petit_fils](../images/Statistique_petit_fils.png)<br>
 
- Une catégorie "indéfinie" apparaitra automatiquement dans le camembert. Elle représente l'cart entre la consommation du père et la somme de consommation des enfants. Elle représente donc la partie détaillée non mesurée de la consommation.
+ Une catégorie "indéfinie" apparaitra automatiquement dans le camembert. Elle représente l'écart entre la consommation du père et la somme de consommation des enfants. Elle représente donc la partie détaillée non mesurée de la consommation.
 
  _**Exemple**_: Il peut être interressant de l'utiliser pour calculer son taux d'autoconsommation quand on possède des panneaux solaires. Il suffit alors de mesurer la consommation globale de la maison en tant que père et d'ensuite renseigner un enfant qui récupèrera la teleinfo du compteur Linky (représentant sa consommation). Le camembert donnera alors le taux d'autoconsommation dans la catégorie "Indéfinie" qui sera en réalité ce que la maison a consommée à partir de la production solaire.
 

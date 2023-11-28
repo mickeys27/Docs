@@ -1,3 +1,7 @@
+## V3.41
+- Suppression limitation pour les abonnements de forte puissance en mode puissance (FGD211)
+- Correction tableau à la volée pour le tarif Tempo
+
 ## V3.40
 - Ajout puissance abonnement 96 et 310 kVA
 - Correction calcul abonnement mode mois pour mois complet
