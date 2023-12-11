@@ -55,3 +55,51 @@ et ensuite, relancer la purge.
 Imaginons un chauffe eau qui consomme 2000W instantané. S’il consomme pendant 1h il aura alors consommé 2000 Wh. Les relevés dans suivi conso sont en générale tout les 1min 30 , 1min 50. On calcul donc la consommation pour se délai: 1h = 3600s, 1min 50 = 110s. On fait une régle de 3:
 2000Wh * 110 / 3600 = 61,111 Wh
 Donc le chauffe eau consommera au maximum 61 Wh entre chaque relevé. La dessus on se prend de la marge, car de toute façon quand il y a un pic de consommation cela se chiffre en général en plusieurs dizaines de kWh. Du coup, 500 serait une valeur raisonnable dans la case « Variation max autorisée »
+
+#### Comment corriger une valeur anormale remontée dans le plugin.
+Exemple en tarif Tempo, où on a un pic de consommation de remonté sur les HC blanc:
+
+![FAQ_caspic](../images/caspic.png)
+
+La correction doit donc permettre de retrouver une consommation correcte dans tout les éléments du dashboard.
+
+Dans un premier temps installer Adminer qui est un petit utilitaire pour consulter les base de données. Je met juste le fichier dans le répertoire html.
+
+![FAQ_InstallAdminer](../images/InstallAdminer.png)
+
+Ensuite lancer Adminer:
+Donc url d’accès à Jeedom /adminer.php (Exemple en local: http://192.168.50.46/adminer.php)
+
+![FAQ_Adminer](../images/FAQ_Adminer.png)
+
+Entrer l’utilisateur et le mot de passe de la BD trouvés dans système|configuration|>_OS/DB
+
+![FAQ_UserPassBD](../images/UserPassBD.png)
+![FAQ_ConnexionAdminer](../images/ConnexionAdminer.png)
+
+Choisir de consulter la table conso_teleinfo
+
+![FAQ_conso_teleinfo](../images/FAQ_conso_teleinfo.png)
+
+Filtrer sur la date du problème le 06/12/2023 avec le champs rec_date = '2023-12-06'
+
+![FAQ_Donnees_conso_teleinfo](../images/FAQ_Donnees_conso_teleinfo.png)
+
+On sait que le problème est sur les jours HC blancs. On regarde alors la colonne HCHC2 et on cherche un gros écart d’index. On voit que c’est arrivé à 15:32:09.
+
+![FAQ_Ecart_conso_teleinfo](../images/FAQ_Ecart_conso_teleinfo.png)
+
+il faut alors corriger pour enlever cet écart. Tu peux le faire avec le correcteur intégré ou bien avec une requête. On va s’arranger pour supprimer l’écart tout en conservant les éventuelles évolutions de l’index avant l’anomalie.
+```sql
+update conso_teleinfo set hchc2 = hchc2 + 2196209 - 30702 where rec_date = '2023-12-06' and id_equipement = 379 and rec_time <= '15:31:07'
+```
+
+![FAQ_req_conso_teleinfo](../images/FAQ_req_conso_teleinfo.png)
+
+Il ne reste plus qu’à synchroniser.
+
+![FAQ_synchroniser](../images/FAQ_synchroniser.png)
+
+Et voilà.
+
+![FAQ_resultat_correction](../images/FAQ_resultat_correction.png)
