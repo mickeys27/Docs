@@ -75,10 +75,15 @@ Commande disponible : <br>
  - Si le champ est vide alors la jauge sera automatique. Elle prendra la valeur max de la journée qu'elle arrondira au kVa superieur et l'appliquera à la jauge.
  - Si vous spécifiez une valeur, la jauge se configura par rapport à votre valeur.
 
-
+**Total**
 Si votre équipement est un total cocher la case Total. <br>
+Cela permettra de faire apparaître le camembert de répartition des consommations si des équiepements enfants sont liés
+
+**Défaut**
 Le bouton Défaut permet d'afficher un équipement au démarrage de votre panel.<br>
-Ces deux cases ne sont disponibles que pour les équipements qui n'ont pas de parent.<br>
+Si plusieurs équipements ont la case "Défaut" de cocher alors celui affiché sera celui dont l'ordre alphabétique du nom est le preier
+
+Ces deux dernières cases ne sont disponibles que pour les équipements qui n'ont pas de parent.<br>
 
 Une fois les informations renseignées, il faut ajouter les commandes nécessaires au bon fonctionnement du plugin . <br>
 Pour cela cliquer sur _**Ajouter les commandes**_ <br>

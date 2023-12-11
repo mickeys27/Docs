@@ -1,3 +1,8 @@
+## V3.42
+- Correction couleur police globale en version mobile
+- Suppression paramétrage en dur du nom de la base Jeedom
+- fiabilisation recherche PTEC parent si plus de 2 niveaux de hiérarchie
+
 ## V3.41
 - Suppression limitation pour les abonnements de forte puissance en mode puissance (FGD211)
 - Correction tableau à la volée pour le tarif Tempo
