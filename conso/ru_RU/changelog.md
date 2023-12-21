@@ -2,6 +2,10 @@
 - Correction couleur police globale en version mobile
 - Suppression paramétrage en dur du nom de la base Jeedom
 - fiabilisation recherche PTEC parent si plus de 2 niveaux de hiérarchie
+- Correction tableau prévisions en tarif Tempo
+- Suppression des écarts de consommation au changement de journée
+- Correction bug maj infos à 23h59:59 et 00h00:00 pour les équipements à J-1
+- Correction ordre empilement couleur dans les graphes pour Tempo
 
 ## V3.41
 - Suppression limitation pour les abonnements de forte puissance en mode puissance (FGD211)
