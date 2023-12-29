@@ -1,3 +1,9 @@
+## V3.43
+- Correction des relevés en tarif TEMPO (ne prenait en compteur que les jours bleus)
+- Correction intitulé tableau des relevés en mode électricité.
+- Correction infobulle tableau des prix (Supression point d'exclamation)
+- Correction calcule conso et montant an-1 pour dernière semaine graphe semaine (il manquait un jour dans la semaine pour 2022)
+
 ## V3.42
 - Correction couleur police globale en version mobile
 - Suppression paramétrage en dur du nom de la base Jeedom
