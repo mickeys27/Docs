@@ -1,3 +1,8 @@
+## V3.44
+- Correction ordre empilement couleur dans les graphes pour Tempo afin d'associer HP ensemble et HC ensemble dans le même ordre que les courbes an-1
+- Correction graphe 4 dernières semaines, calcule conso et montant an-1 sur la semaine complète
+- Ajout d'un controle pour ignorer les index regressifs pour le gaz, l'eau et le fuel
+
 ## V3.43
 - Correction des relevés en tarif TEMPO (ne prenait en compteur que les jours bleus)
 - Correction intitulé tableau des relevés en mode électricité.
