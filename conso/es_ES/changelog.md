@@ -1,3 +1,6 @@
+## V3.45
+- Correction blocage remontée quand index inférieur au précédent
+
 ## V3.44
 - Correction ordre empilement couleur dans les graphes pour Tempo afin d'associer HP ensemble et HC ensemble dans le même ordre que les courbes an-1
 - Correction graphe 4 dernières semaines, calcule conso et montant an-1 sur la semaine complète
