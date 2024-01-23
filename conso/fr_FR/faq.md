@@ -44,6 +44,10 @@ CREATE TABLE `conso_tmp` (
 #### Pas de remontée/visualisation de consommation dans les graphiques jours/Mois/année
 Essayer de décocher « Variation: Insère si Conso > Conso précédente » dans le menu configuration du plugin et relancer le démon SuiviConso
 
+#### Pas d'informations visibles dans les graphiques jours/Mois/année en prix HT
+Vérifier les dates de fin d'application des prix, taxes, periodes, tva, abonnements, et ne pas en renseigner des trop lointaines (Pas plus de 31/12/2035 pour le moment)
+
+Essayer de décocher « Variation: Insère si Conso > Conso précédente » dans le menu configuration du plugin et relancer le démon SuiviConso
 #### Bouton "Purger" provoque une erreur: [MySQL] Error code : 21S01 (1136). Column count doesn’t match value count at row 1 : INSERT IGNORE INTO conso_teleinfo_save SELECT * FROM conso_teleinfo
 Cela veut dire qu'il manque des champs dans la table conso_teleinfo_save (Sans doute lors de la migration pour ajouter le tarif Tempo. Il faut alors exécuter la requête suivante:
 ```sql
