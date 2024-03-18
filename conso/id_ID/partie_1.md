@@ -35,10 +35,16 @@ Commande disponible : <br>
  - Consommation avec choix de l'unité (Kwh ou Wh) <br>
  - Variation max autorisée entre 2 mesures: Permet d'éviter de fausser les relevés en cas de pics de consommation survenu par erreur.
  - Puissance PAPP
- - PTEC (On attends HPJB, HCJB, HPJW, HCJW, HPJR, HCJR pour Tempo; HP, HC pour un tarif HP/HC; HP pour le tarif Base)
+ - PTEC (On attends HPJB, HCJB, HPJW, HCJW, HPJR, HCJR pour Tempo; HP, HC pour un tarif HP/HC; HP pour le tarif Base).
+ Pour ceux qui possède un Zlinky pour adapter l'info à ce que le plugin attend en tarif TEMPO, il faut renseigner comme ceci:
+```sql
+ (#[Consommations][ STD][LTARF]# == "HP  BLEU"?"HPJB":(#[Consommations][ STD][LTARF]# == "HC  BLEU"?"HCJB":(#[Consommations][ STD][LTARF]# == "HP  BLANC"?"HPJW":(#[Consommations][ STD][LTARF]# == "HC  BLANC"?"HCJW":(#[Consommations][ STD][LTARF]# == "HP  ROUGE"?"HPJR":"HCJR")))))
+ ```
+ En remplaçant la commande #[Consommations][ STD][LTARF]# par la votre. Attention aussi en générale il y a 2 espaces entre HP et BLEU et de même pour les autres couleurs
  - INST1 (Intensité instantanée)
  - IMAX1 (Intensité maximale atteinte) On peut choisir d'avoir l'intensité maximale absolue ou bien celle de la journée. Il faut alors historiser la commande utilisée et renseigner le champ avec une commande telle que : maxbetween(#[Consommation][Teleinfo 1][Intensité instantanée]#, midnight,now)
  - température extérieure
+
 
 **je n'ai que la puissance de mon équipement (Exemple FGD-211) :** <br>
 Il faut fournir l état de l équipement et la consommation électrique déclarée.<br>
