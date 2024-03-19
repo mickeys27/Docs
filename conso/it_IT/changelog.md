@@ -1,3 +1,9 @@
+## V3.46
+- Correction calcul abonnement
+- Correction unité commandes info gaz
+- Correction erreur "insert into conso_teleinfo" lors du cronDaily
+- Correction textes infobulles + cosmétique
+
 ## V3.45
 - Correction blocage remontée quand index inférieur au précédent
 
