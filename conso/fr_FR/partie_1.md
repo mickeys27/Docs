@@ -27,12 +27,12 @@ Cliquer sur "Ajouter un équipement" <br>
 
 **Abonnement :** Le type de tarif actuellement géré. Bleu(Heure pleine, heure creuse), Base (heure pleine), Tempo (heure pleine, heure creuse) <br>
 
-**Production complémentaire :** Lorsqu'une hiérarchie parent enfants (équipement principal, sous-équipement) existe, un graphe camembert de la répartition des consommations apparait. Si la somme de la consommation des enfants dépasse celle de l'équipemnt parent, alors un message d'erreur apparaitra. Si jamais on place en tant que sous équipement la production solaire alors pause le problème puisque la somme de cconsommation dépassera l'équipement parent. Cette cas s'il est cochée permet de passer outre ce problème.<br>
+**Production complémentaire :** Lorsqu'une hiérarchie parent enfants (équipement principal, sous-équipement) existe, un graphe camembert de la répartition des consommations apparait. Si la somme de la consommation des enfants dépasse celle de l'équipement parent, alors un message d'erreur apparaitra. Si jamais on place en tant que sous équipement la production solaire, alors cela pause un problème puisque la somme des consommations dépassera celle de l'équipement parent. Cette case, si elle est cochée permet de passer outre ce problème.<br>
 
 **Je n'ai que la consommation de mon équipement (Exemple FGD-212)  :** <br>
 Généralement sur Non pour la teleinfo et sur sur Oui pour les équipements type Fibaro Wall plug <br>
 Commande disponible : <br>
- - Consommation avec choix de l'unité (Kwh ou Wh) <br>
+ - Consommation avec choix de l'unité (kWh ou Wh) <br>
  - Variation max autorisée entre 2 mesures: Permet d'éviter de fausser les relevés en cas de pics de consommation survenu par erreur.
  - Puissance PAPP
  - PTEC (On attends HPJB, HCJB, HPJW, HCJW, HPJR, HCJR pour Tempo; HP, HC pour un tarif HP/HC; HP pour le tarif Base).
