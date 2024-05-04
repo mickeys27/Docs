@@ -1,3 +1,12 @@
+## V3.47
+- Adaptation pour PHP 8 et Jeedom V4.4
+- Correction saisie date période facture dans onglet Outil
+- Correction labels graphiques (taille et couleur) pour core V4.4
+- Correction affichage des périodes en cas d'intervalles sans prix
+- Correction du calcul des prix pour le fioul quand le prix pour 1000 litres est supérieur à 999
+- Correctif pour affichage des consommations inférieures à 1 litre dans le graphe consommation du jour et le tableau des variations.
+- Préparation pour calcul tarif eau en fonction du volume
+
 ## V3.46
 - Correction calcul abonnement
 - Correction unité commandes info gaz
