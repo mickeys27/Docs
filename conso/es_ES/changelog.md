@@ -6,6 +6,7 @@
 - Correction du calcul des prix pour le fioul quand le prix pour 1000 litres est supérieur à 999
 - Correctif pour affichage des consommations inférieures à 1 litre dans le graphe consommation du jour et le tableau des variations.
 - Préparation pour calcul tarif eau en fonction du volume
+- Correctifs version mobile
 
 ## V3.46
 - Correction calcul abonnement
