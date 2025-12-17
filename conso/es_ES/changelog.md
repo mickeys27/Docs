@@ -1,3 +1,7 @@
+## V3.48
+- Correction PHP Notice
+- Correction calcul taxes en tarif Tempo
+
 ## V3.47
 - Adaptation pour PHP 8 et Jeedom V4.4
 - Correction saisie date période facture dans onglet Outil
