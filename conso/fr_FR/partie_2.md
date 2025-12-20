@@ -30,7 +30,7 @@ Vous pouvez afficher le détail en vous positionnant sur le libellé
 
 ### Prévisions
 Les prévisions seront affichées uniquement si vous avez un historique d'1 an minimum pour pouvoir comparer sur l'année précédente. 
-La prevision par année est calculée en Year to month. de janviers au dernier mois complet  
+La prevision par année est calculée en Year to month, de janvier au dernier mois complet  
 Si nous sommes en septembre alors la comparaison se fera : 
 01/01/2017-> 31/08/2017 à 01/01/2016-> 31/08/2016 <br>
 ![prevision](../images/prevision.png)
@@ -46,13 +46,13 @@ Puissance instantanée sous forme de jauge
 ### Variation 
 Ce Tableau vous informe des variations de puissance 
 Il vous permet de voir la différence de puissance entre chaque relevé 
-Heure / puissance / Différence par rapport au dernier relevé / Type Abonnement
+Heure / Puissance / Différence par rapport au dernier relevé / Type Abonnement
  
-**Il est possible que ce tableau ne s'affiche pas lors du lancement du plugin , il faut alors attendre quelque heures.** <br>
+**Il est possible que ce tableau ne s'affiche pas lors du lancement du plugin , il faut alors attendre quelques heures.** <br>
 ![variation](../images/variation.jpg)
 
 **Statistique**
- - Du jour , de la semaine, du mois , de l'année disponible en cliquant sur les flèches
+ - Du jour, de la semaine, du mois, de l'année disponible en cliquant sur les flèches
  - Consommation par équipement 
  - La consommation  
  - Pourcentage en HP et HC 
@@ -77,7 +77,7 @@ Heure / puissance / Différence par rapport au dernier relevé / Type Abonnement
 
 ![graph](../images/graph.jpg)
 
-En passant la souris sur le graphique vous pouvez afficher le detail. 
+En passant la souris sur le graphique, vous pouvez afficher le détail. 
 
 ![graph_detail](../images/graph_detail.jpg)
 
